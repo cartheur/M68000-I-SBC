@@ -15,15 +15,17 @@ TESTPROG  = fizzbuzz
 # make rom     - build ROM image
 # make burnrom - burn ROM image to EEPROMs using minipro
 ROM_SRC   = rom.asm
-ROM_SREC  = rom.srec
+ROM_RAW   = rom.bin
 ROM_LST   = rom.lst
 ROM_BIN_L = rom-l.bin
 ROM_BIN_U	= rom-u.bin
 ROM_DASM  = rom-dasm.lst
 ROM_BIN   = $(ROM_BIN_L) $(ROM_BIN_U)
+ROM_SPLITTER = ../tools/split_68k_rom.py
 
 # Assembler and disassembler selection
-AS  = vasmm68k_mot
+VASM ?= ../tools/vasm/vasmm68k_mot
+AS   = $(VASM)
 DAS = vda68k
 SERIALTERM = python3 -m serial.tools.miniterm --raw --eol LF
 
@@ -51,25 +53,17 @@ load: $(TESTPROG_BIN)
 run: load
 	$(SERIALTERM) $(FTDI_DEV) $(BAUD)
 
-rom: $(ROM_BIN)
+rom: $(ROM_RAW) $(ROM_SPLITTER)
+	python3 $(ROM_SPLITTER) $(ROM_RAW) $(ROM_BIN_L) $(ROM_BIN_U)
 
 serial:
 	$(SERIALTERM) $(FTDI_DEV) $(BAUD)
 
-$(ROM_SREC): $(ROM_SRC)
-	$(AS) $(ASFLAGS) -o $@ $(ASFLAGS_SREC) -L $(ROM_LST) $<
+$(ROM_RAW): $(ROM_SRC)
+	$(AS) $(ASFLAGS) -o $@ $(ASFLAGS_BIN) -L $(ROM_LST) $<
 
-# Even ROM (upper 8 bits, D15-D8)
-$(ROM_BIN_U): $(ROM_SREC)
-	srec_cat $< -split 2 0 -o $@ -binary
-
-# Odd ROM (lower 8 bits, D7-D0)
-$(ROM_BIN_L): $(ROM_SREC)
-	srec_cat $< -split 2 1 -o $@ -binary
-
-$(ROM_DASM): $(ROM_SREC)
-	srec_cat $< -o $<.bin -binary
-	$(DAS) $<.bin > $(ROM_DASM)
+$(ROM_DASM): $(ROM_RAW)
+	$(DAS) $< > $@
 
 clean:
 	rm -f *.bin *.srec *.lst

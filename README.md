@@ -5,7 +5,7 @@ Taking it to the next level.
 A minimal single-board computer based on the venerable ["Texas Cockroach"](https://youtu.be/UaHtGf4aRLs?t=2074)
 Motorola 68000 16/32-bit microprocessor.
 
-![Board image](/images/board.jpg)
+![Board image](project/board.jpg)
 
 ## Features
 
@@ -18,6 +18,33 @@ Motorola 68000 16/32-bit microprocessor.
 - Only two 74HC glue logic chips required
 
 This might be capable of running uClinux, but I haven't tried it!
+
+## Project status
+
+The original KiCad design has been migrated to KiCad 10 and is under active
+manufacturing review. A complete two-layer Gerber/Excellon **production draft**
+is available in [fabrication/production-draft](fabrication/production-draft).
+It is not approved for ordering: the current electrical DRC report is
+**HOLD**. See [the published DRC report](fabrication/production-draft/DRC.md)
+for every blocker and its board location.
+
+## Local workflow
+
+The required Motorola-syntax M68k assembler is vendored in
+[tools/vasm](tools/vasm), so no system-wide vasm installation is required.
+The prerequisites are `make`, a C compiler, Python 3, and the installed KiCad
+Flatpak (`org.kicad.KiCad`) for PCB validation and fabrication exports.
+
+```sh
+make firmware      # build the local vasm tool and fizzbuzz test binary
+make rom           # build the 64 KiB ROM and two 32 KiB EEPROM images
+make drc           # publish fabrication/production-draft/drc.json and DRC.md
+make fabrication   # refresh DRC, Gerbers, Excellon drills, and drill report
+```
+
+`make drc` is the release gate: it always regenerates the raw KiCad JSON and a
+readable Markdown report. Do not order boards until its electrical blocker
+count is zero and the Gerbers have been independently reviewed.
 
 
 ## Hardware
@@ -105,10 +132,10 @@ The 44-pin IDE header accepts a CompactFlash adapter board such as [this one](ht
 
 ## Software
 
-This project uses the [vasm](http://sun.hasenbraten.de/vasm/) assembler and a
-standard Makefile. Python 3 and [PySerial](https://pythonhosted.org/pyserial/)
-are also required to upload programs to the computer via the serial port. The
-Makefile also contains rules for burning ROM images to AT28C256 EEPROMs using
+This project uses the vendored [vasm](tools/vasm) assembler and a standard
+Makefile. Python 3 and [PySerial](https://pythonhosted.org/pyserial/) are also
+required to upload programs to the computer via the serial port. The Makefile
+also contains rules for burning ROM images to AT28C256 EEPROMs using
 [minipro](https://gitlab.com/DavidGriffith/minipro/) if you have a [TL866II+](https://www.jameco.com/shop/ProductDisplay?catalogId=10001&langId=-1&storeId=10001&productId=2297823)
 programmer. (If you don't have a chip programmer, you should get a TL866II+, they
 are reasonably priced and available from a number of vendors.)

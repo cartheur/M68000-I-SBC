@@ -1,0 +1,9 @@
+# Firmware build products
+code/*.bin
+code/*.lst
+code/*.srec
+
+# KiCad session files
+project/*.kicad_prl
+project/*.kicad_pro.lck
+project/.history/
