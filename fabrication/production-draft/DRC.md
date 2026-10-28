@@ -4,9 +4,10 @@
 
 - Source: `68000sbc.kicad_pcb`
 - KiCad: `10.0.7`
-- Report time: `2026-10-28T14:24:48`
+- Report time: `2026-10-28T14:29:15`
 - Violations: **283**
 - Unconnected items: **1**
+- Schematic/PCB parity findings: **11**
 - Electrical release blockers: **34**
 
 Do not release fabrication files while electrical release blockers remain.
@@ -34,6 +35,7 @@ Do not release fabrication files while electrical release blockers remain.
 | 1 | `text_thickness` | Review |
 | 1 | `silk_over_copper` | Review |
 | 1 | `unconnected_items` | Blocker |
+| 11 | `schematic_parity` | Blocker |
 
 ## Electrical release blockers
 
@@ -55,23 +57,23 @@ Do not release fabrication files while electrical release blockers remain.
 ### `hole_clearance` (11)
 
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
-    - Track [<no net>] on B.Cu, length 5.0800 mm at (152.4, 108.585)
-    - PTH pad 3 [unconnected-(JP1-B-Pad3)] of JP1 at (152.4, 108.585)
-- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [<no net>] on B.Cu, length 3.5921 mm at (161.925, 100.965)
     - PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2 at (159.385, 98.425)
-- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
-    - Track [<no net>] on B.Cu, length 2.4950 mm at (161.66, 112.765)
-    - PTH pad 1 [unconnected-(J1-VBUS-Pad1)] of J1 at (161.66, 115.26)
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [<no net>] on B.Cu, length 2.6941 mm at (147.32, 108.585)
     - PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1 at (147.32, 108.585)
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
-    - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
-    - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
+    - Track [<no net>] on B.Cu, length 2.4950 mm at (161.66, 112.765)
+    - PTH pad 1 [unconnected-(J1-VBUS-Pad1)] of J1 at (161.66, 115.26)
+- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    - Track [<no net>] on B.Cu, length 5.0800 mm at (152.4, 108.585)
+    - PTH pad 3 [unconnected-(JP1-B-Pad3)] of JP1 at (152.4, 108.585)
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
+- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
+    - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [Net-(C11-Pad1)] on B.Cu, length 3.5921 mm at (134.62, 97.79)
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
@@ -88,8 +90,39 @@ Do not release fabrication files while electrical release blockers remain.
     - PTH pad 5 [<no net>] of J1 at (166.37, 122.53)
     - Zone [GND] on B.Cu, priority 0 at (170.18, 129.54)
 
+### `schematic_parity` (11)
+
+- Duplicate footprints
+    - Footprint REF** at (167.64, 41.275)
+    - Footprint REF** at (167.64, 127.0)
+- Duplicate footprints
+    - Footprint REF** at (45.72, 41.275)
+    - Footprint REF** at (167.64, 127.0)
+- Duplicate footprints
+    - Footprint REF** at (45.72, 127.0)
+    - Footprint REF** at (167.64, 127.0)
+- No pad found for pin SH (GND) in schematic
+    - Footprint J1 at (161.66, 115.26)
+- Extra footprint
+    - Footprint U3 at (60.96, 45.72)
+- Extra footprint
+    - Footprint C11 at (146.685, 100.33)
+- Extra footprint
+    - Footprint C12 at (153.035, 100.33)
+- Extra footprint
+    - Footprint REF** at (167.64, 127.0)
+- Extra footprint
+    - Footprint REF** at (167.64, 41.275)
+- Extra footprint
+    - Footprint REF** at (45.72, 41.275)
+- Extra footprint
+    - Footprint REF** at (45.72, 127.0)
+
 ### `shorting_items` (7)
 
+- Items shorting two nets (nets unconnected-(JP1-A-Pad1) and <no net>)
+    - PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1 at (147.32, 108.585)
+    - Track [<no net>] on B.Cu, length 2.6941 mm at (147.32, 108.585)
 - Items shorting two nets (nets <no net> and unconnected-(J2-Pin_3-Pad3))
     - Track [<no net>] on B.Cu, length 3.5921 mm at (161.925, 100.965)
     - PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2 at (159.385, 98.425)
@@ -99,15 +132,12 @@ Do not release fabrication files while electrical release blockers remain.
 - Items shorting two nets (nets <no net> and unconnected-(J1-VBUS-Pad1))
     - Track [<no net>] on B.Cu, length 2.4950 mm at (161.66, 112.765)
     - PTH pad 1 [unconnected-(J1-VBUS-Pad1)] of J1 at (161.66, 115.26)
-- Items shorting two nets (nets unconnected-(JP1-A-Pad1) and <no net>)
-    - PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1 at (147.32, 108.585)
-    - Track [<no net>] on B.Cu, length 2.6941 mm at (147.32, 108.585)
-- Items shorting two nets (nets Net-(C11-Pad1) and Net-(R3-Pad1))
-    - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
-    - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
 - Items shorting two nets (nets Net-(R3-Pad1) and Net-(C11-Pad1))
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
     - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
+- Items shorting two nets (nets Net-(C11-Pad1) and Net-(R3-Pad1))
+    - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
+    - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
 - Items shorting two nets (nets Net-(R3-Pad1) and Net-(C11-Pad1))
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
     - Track [Net-(C11-Pad1)] on B.Cu, length 3.5921 mm at (134.62, 97.79)

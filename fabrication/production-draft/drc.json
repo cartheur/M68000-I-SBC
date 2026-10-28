@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-28T14:24:48",
+    "date": "2026-10-28T14:29:15",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -30,7 +30,197 @@
         "exclusion"
     ],
     "kicad_version": "10.0.7",
-    "schematic_parity": [],
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 41.275
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf962d"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9622"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 45.72,
+                        "y": 41.275
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9652"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9622"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 45.72,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9660"
+                },
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9622"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "No pad found for pin SH (GND) in schematic",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 161.66,
+                        "y": 115.26
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edda0e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 60.96,
+                        "y": 45.72
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edc3963"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint C11",
+                    "pos": {
+                        "x": 146.685,
+                        "y": 100.33
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edcfaac"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint C12",
+                    "pos": {
+                        "x": 153.035,
+                        "y": 100.33
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf56c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9622"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 167.64,
+                        "y": 41.275
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf962d"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 45.72,
+                        "y": 41.275
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9652"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint REF**",
+                    "pos": {
+                        "x": 45.72,
+                        "y": 127.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-00005edf9660"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
     "source": "68000sbc.kicad_pcb",
     "unconnected_items": [
         {
@@ -58,6 +248,29 @@
         }
     ],
     "violations": [
+        {
+            "description": "Items shorting two nets (nets unconnected-(JP1-A-Pad1) and <no net>)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 108.585
+                    },
+                    "uuid": "652c46bd-b861-4689-8bb4-38e1f02673db"
+                },
+                {
+                    "description": "Track [<no net>] on B.Cu, length 2.6941 mm",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 108.585
+                    },
+                    "uuid": "e3daef5a-a572-47dd-81be-763fc3488268"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
         {
             "description": "Items shorting two nets (nets <no net> and unconnected-(J2-Pin_3-Pad3))",
             "items": [
@@ -131,29 +344,6 @@
             "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Track [<no net>] on B.Cu, length 5.0800 mm",
-                    "pos": {
-                        "x": 152.4,
-                        "y": 108.585
-                    },
-                    "uuid": "cc7d2028-2fe0-4727-9820-4b7ac9bf90c9"
-                },
-                {
-                    "description": "PTH pad 3 [unconnected-(JP1-B-Pad3)] of JP1",
-                    "pos": {
-                        "x": 152.4,
-                        "y": 108.585
-                    },
-                    "uuid": "4768c363-a010-4ee6-b52e-7f7ba7d1554d"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
                     "description": "Track [<no net>] on B.Cu, length 3.5921 mm",
                     "pos": {
                         "x": 161.925,
@@ -168,6 +358,29 @@
                         "y": 98.425
                     },
                     "uuid": "b7f8e78b-6b9c-4876-b6bf-a8fb8e76241a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [<no net>] on B.Cu, length 2.6941 mm",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 108.585
+                    },
+                    "uuid": "e3daef5a-a572-47dd-81be-763fc3488268"
+                },
+                {
+                    "description": "PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1",
+                    "pos": {
+                        "x": 147.32,
+                        "y": 108.585
+                    },
+                    "uuid": "652c46bd-b861-4689-8bb4-38e1f02673db"
                 }
             ],
             "severity": "error",
@@ -197,92 +410,23 @@
             "type": "hole_clearance"
         },
         {
-            "description": "Items shorting two nets (nets unconnected-(JP1-A-Pad1) and <no net>)",
-            "items": [
-                {
-                    "description": "PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1",
-                    "pos": {
-                        "x": 147.32,
-                        "y": 108.585
-                    },
-                    "uuid": "652c46bd-b861-4689-8bb4-38e1f02673db"
-                },
-                {
-                    "description": "Track [<no net>] on B.Cu, length 2.6941 mm",
-                    "pos": {
-                        "x": 147.32,
-                        "y": 108.585
-                    },
-                    "uuid": "e3daef5a-a572-47dd-81be-763fc3488268"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
             "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Track [<no net>] on B.Cu, length 2.6941 mm",
+                    "description": "Track [<no net>] on B.Cu, length 5.0800 mm",
                     "pos": {
-                        "x": 147.32,
+                        "x": 152.4,
                         "y": 108.585
                     },
-                    "uuid": "e3daef5a-a572-47dd-81be-763fc3488268"
+                    "uuid": "cc7d2028-2fe0-4727-9820-4b7ac9bf90c9"
                 },
                 {
-                    "description": "PTH pad 1 [unconnected-(JP1-A-Pad1)] of JP1",
+                    "description": "PTH pad 3 [unconnected-(JP1-B-Pad3)] of JP1",
                     "pos": {
-                        "x": 147.32,
+                        "x": 152.4,
                         "y": 108.585
                     },
-                    "uuid": "652c46bd-b861-4689-8bb4-38e1f02673db"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Items shorting two nets (nets Net-(C11-Pad1) and Net-(R3-Pad1))",
-            "items": [
-                {
-                    "description": "Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm",
-                    "pos": {
-                        "x": 52.07,
-                        "y": 107.95
-                    },
-                    "uuid": "3d79db7f-8cad-4ff6-994f-050f325aa3ac"
-                },
-                {
-                    "description": "PTH pad 5 [Net-(R3-Pad1)] of U2",
-                    "pos": {
-                        "x": 48.26,
-                        "y": 104.14
-                    },
-                    "uuid": "5917ce8b-35a0-4ca2-b299-6fd924028040"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm",
-                    "pos": {
-                        "x": 52.07,
-                        "y": 107.95
-                    },
-                    "uuid": "3d79db7f-8cad-4ff6-994f-050f325aa3ac"
-                },
-                {
-                    "description": "PTH pad 5 [Net-(R3-Pad1)] of U2",
-                    "pos": {
-                        "x": 48.26,
-                        "y": 104.14
-                    },
-                    "uuid": "5917ce8b-35a0-4ca2-b299-6fd924028040"
+                    "uuid": "4768c363-a010-4ee6-b52e-7f7ba7d1554d"
                 }
             ],
             "severity": "error",
@@ -312,6 +456,29 @@
             "type": "shorting_items"
         },
         {
+            "description": "Items shorting two nets (nets Net-(C11-Pad1) and Net-(R3-Pad1))",
+            "items": [
+                {
+                    "description": "Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm",
+                    "pos": {
+                        "x": 52.07,
+                        "y": 107.95
+                    },
+                    "uuid": "3d79db7f-8cad-4ff6-994f-050f325aa3ac"
+                },
+                {
+                    "description": "PTH pad 5 [Net-(R3-Pad1)] of U2",
+                    "pos": {
+                        "x": 48.26,
+                        "y": 104.14
+                    },
+                    "uuid": "5917ce8b-35a0-4ca2-b299-6fd924028040"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
             "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
             "items": [
                 {
@@ -329,6 +496,29 @@
                         "y": 97.79
                     },
                     "uuid": "38a7910d-b6fb-40b8-af64-61f1375aa316"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm",
+                    "pos": {
+                        "x": 52.07,
+                        "y": 107.95
+                    },
+                    "uuid": "3d79db7f-8cad-4ff6-994f-050f325aa3ac"
+                },
+                {
+                    "description": "PTH pad 5 [Net-(R3-Pad1)] of U2",
+                    "pos": {
+                        "x": 48.26,
+                        "y": 104.14
+                    },
+                    "uuid": "5917ce8b-35a0-4ca2-b299-6fd924028040"
                 }
             ],
             "severity": "error",
@@ -2520,15 +2710,15 @@
             "type": "starved_thermal"
         },
         {
-            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
             "items": [
                 {
-                    "description": "Zone [GND] on F.Cu, priority 0",
+                    "description": "Zone [GND] on B.Cu, priority 0",
                     "pos": {
                         "x": 170.18,
                         "y": 129.54
                     },
-                    "uuid": "00000000-0000-0000-0000-00005edeae0b"
+                    "uuid": "00000000-0000-0000-0000-00005edeae0e"
                 },
                 {
                     "description": "PTH pad 19 [GND] of J4",
@@ -2543,15 +2733,15 @@
             "type": "starved_thermal"
         },
         {
-            "description": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
             "items": [
                 {
-                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "description": "Zone [GND] on F.Cu, priority 0",
                     "pos": {
                         "x": 170.18,
                         "y": 129.54
                     },
-                    "uuid": "00000000-0000-0000-0000-00005edeae0e"
+                    "uuid": "00000000-0000-0000-0000-00005edeae0b"
                 },
                 {
                     "description": "PTH pad 19 [GND] of J4",

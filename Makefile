@@ -15,7 +15,7 @@ rom: tools
 
 drc:
 	mkdir -p $(FAB_DIR)
-	$(KICAD_CLI) pcb drc $(PCB) --output $(FAB_DIR)/drc.json --format json --severity-all --all-track-errors
+	$(KICAD_CLI) pcb drc $(PCB) --output $(FAB_DIR)/drc.json --format json --severity-all --all-track-errors --schematic-parity
 	python3 tools/publish_drc_report.py $(FAB_DIR)/drc.json $(FAB_DIR)/DRC.md
 
 fabrication: drc

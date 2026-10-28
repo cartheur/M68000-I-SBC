@@ -1,0 +1,7 @@
+Item,References,Quantity,Description,Manufacturer,Manufacturer_PN,Mouser_Search_URL,Release_Status
+1,U1,1,16-position 2-row open-frame DIP socket; 2.54 mm pitch; 7.62 mm row spacing,Omron,XR2A-1611-N,https://www.mouser.com/c/?q=XR2A-1611-N,HOLD — verify fit and current stock before order
+2,U2,1,14-position 2-row open-frame DIP socket; 2.54 mm pitch; 7.62 mm row spacing,Omron,XR2A-1411-N,https://www.mouser.com/c/?q=XR2A-1411-N,HOLD — verify fit and current stock before order
+3,U3,1,64-position 2-row open-frame DIP socket; 2.54 mm pitch; 22.86 mm row spacing,Omron,XR2A-6411-N,https://www.mouser.com/c/?q=XR2A-6411-N,HOLD — verify fit and current stock before order
+4,"U4,U6",2,32-position 2-row open-frame DIP socket; 2.54 mm pitch; 15.24 mm row spacing,Omron,XR2A-3211-N,https://www.mouser.com/c/?q=XR2A-3211-N,HOLD — verify fit and current stock before order
+5,"U5,U7",2,28-position 2-row open-frame DIP socket; 2.54 mm pitch; 15.24 mm row spacing,Omron,XR2A-2811-N,https://www.mouser.com/c/?q=XR2A-2811-N,HOLD — verify fit and current stock before order
+6,U8,1,40-position 2-row open-frame DIP socket; 2.54 mm pitch; 15.24 mm row spacing,Omron,XR2A-4011-N,https://www.mouser.com/c/?q=XR2A-4011-N,HOLD — verify fit and current stock before order

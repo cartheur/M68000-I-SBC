@@ -15,9 +15,10 @@ particular, DRC reports an open/short conflict between U2 pad 5 and R3 pad 1.
 The remaining text, courtyard, and footprint-library messages should then be
 triaged separately.
 
-Regenerate the DRC report with `make drc`; it refreshes both the KiCad JSON and
-the readable [`DRC.md`](DRC.md). Use `make fabrication` to refresh the DRC
-report and all manufacturing files together.
+Regenerate the DRC report with `make drc`; it checks both PCB rules and
+schematic/PCB parity, then refreshes the KiCad JSON and readable
+[`DRC.md`](DRC.md). Use `make fabrication` to refresh the DRC report and all
+manufacturing files together.
 
 ## Files
 

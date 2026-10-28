@@ -1,0 +1,9 @@
+Designator,Comment,Footprint,Manufacturer,Manufacturer_PN,PosX_mm,PosY_mm,Rotation_deg,Side,Assembly_Note
+U1,16-pin DIP socket 7.62 mm row spacing,DIP-16_W7.62mm_Socket,Omron,XR2A-1611-N,48.260000,-71.120000,0.000000,Top,Socket only; do not fit IC
+U2,14-pin DIP socket 7.62 mm row spacing,DIP-14_W7.62mm_Socket,Omron,XR2A-1411-N,48.260000,-93.980000,0.000000,Top,Socket only; do not fit IC
+U3,64-pin DIP socket 22.86 mm row spacing,DIP-64_W22.86mm_Socket,Omron,XR2A-6411-N,60.960000,-45.720000,0.000000,Top,Socket only; do not fit IC
+U4,32-pin DIP socket 15.24 mm row spacing,DIP-32_W15.24mm_Socket,Omron,XR2A-3211-N,91.440000,-45.720000,0.000000,Top,Socket only; do not fit IC
+U5,28-pin DIP socket 15.24 mm row spacing,DIP-28_W15.24mm_Socket,Omron,XR2A-2811-N,91.440000,-91.440000,0.000000,Top,Socket only; do not fit IC
+U6,32-pin DIP socket 15.24 mm row spacing,DIP-32_W15.24mm_Socket,Omron,XR2A-3211-N,114.300000,-45.720000,0.000000,Top,Socket only; do not fit IC
+U7,28-pin DIP socket 15.24 mm row spacing,DIP-28_W15.24mm_Socket,Omron,XR2A-2811-N,114.300000,-91.440000,0.000000,Top,Socket only; do not fit IC
+U8,40-pin DIP socket 15.24 mm row spacing,DIP-40_W15.24mm_Socket,Omron,XR2A-4011-N,137.160000,-45.720000,0.000000,Top,Socket only; do not fit IC

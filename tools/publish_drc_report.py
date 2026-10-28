@@ -40,6 +40,7 @@ def main() -> int:
     report = json.loads(json_path.read_text())
     violations = report.get("violations", [])
     unconnected = report.get("unconnected_items", [])
+    parity = report.get("schematic_parity", [])
     by_type = Counter(item["type"] for item in violations)
     blocker_count = sum(count for kind, count in by_type.items() if kind in RELEASE_BLOCKERS)
     blocker_count += len(unconnected)
@@ -55,6 +56,7 @@ def main() -> int:
         f"- Report time: `{report.get('date', 'unknown')}`",
         f"- Violations: **{len(violations)}**",
         f"- Unconnected items: **{len(unconnected)}**",
+        f"- Schematic/PCB parity findings: **{len(parity)}**",
         f"- Electrical release blockers: **{blocker_count}**",
         "",
         "Do not release fabrication files while electrical release blockers remain.",
@@ -69,6 +71,8 @@ def main() -> int:
         lines.append(f"| {count} | `{kind}` | {gate} |")
     if unconnected:
         lines.append(f"| {len(unconnected)} | `unconnected_items` | Blocker |")
+    if parity:
+        lines.append(f"| {len(parity)} | `schematic_parity` | Blocker |")
 
     blockers: dict[str, list[dict]] = defaultdict(list)
     for finding in violations:
@@ -76,6 +80,8 @@ def main() -> int:
             blockers[finding["type"]].append(finding)
     if unconnected:
         blockers["unconnected_items"].extend(unconnected)
+    if parity:
+        blockers["schematic_parity"].extend(parity)
 
     lines.extend(["", "## Electrical release blockers", ""])
     if not blockers:
