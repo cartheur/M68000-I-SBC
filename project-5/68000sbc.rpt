@@ -1,0 +1,47 @@
+** Drc report for C:/ame/boards/m68k/68000sbc.kicad_pcb **
+** Created on  **
+
+** Found 13 DRC errors **
+ErrType(45): Courtyards overlap
+    @(91.440 mm, 45.720 mm): Footprint U4 on F.Cu
+    @(99.060 mm, 48.260 mm): Footprint C6 on F.Cu
+ErrType(45): Courtyards overlap
+    @(155.575 mm, 45.720 mm): Footprint RN1 on F.Cu
+    @(137.160 mm, 45.720 mm): Footprint U8 on F.Cu
+ErrType(45): Courtyards overlap
+    @(137.160 mm, 45.720 mm): Footprint U8 on F.Cu
+    @(147.320 mm, 48.260 mm): Footprint C10 on F.Cu
+ErrType(45): Courtyards overlap
+    @(66.675 mm, 78.740 mm): Footprint C4 on F.Cu
+    @(60.960 mm, 45.720 mm): Footprint U3 on F.Cu
+ErrType(45): Courtyards overlap
+    @(45.720 mm, 68.580 mm): Footprint C1 on F.Cu
+    @(48.260 mm, 71.120 mm): Footprint U1 on F.Cu
+ErrType(45): Courtyards overlap
+    @(133.985 mm, 90.805 mm): Footprint C9 on F.Cu
+    @(134.620 mm, 97.790 mm): Footprint R3 on F.Cu
+ErrType(45): Courtyards overlap
+    @(121.920 mm, 48.260 mm): Footprint C8 on F.Cu
+    @(114.300 mm, 45.720 mm): Footprint U6 on F.Cu
+ErrType(45): Courtyards overlap
+    @(78.105 mm, 83.820 mm): Footprint C5 on F.Cu
+    @(60.960 mm, 45.720 mm): Footprint U3 on F.Cu
+ErrType(45): Courtyards overlap
+    @(55.880 mm, 91.440 mm): Footprint C3 on F.Cu
+    @(48.260 mm, 93.980 mm): Footprint U2 on F.Cu
+ErrType(45): Courtyards overlap
+    @(55.880 mm, 91.440 mm): Footprint C3 on F.Cu
+    @(48.260 mm, 71.120 mm): Footprint U1 on F.Cu
+ErrType(45): Courtyards overlap
+    @(55.880 mm, 68.580 mm): Footprint C2 on F.Cu
+    @(48.260 mm, 71.120 mm): Footprint U1 on F.Cu
+ErrType(45): Courtyards overlap
+    @(161.660 mm, 115.260 mm): Footprint J1 on F.Cu
+    @(167.640 mm, 127.000 mm): Footprint REF** on F.Cu
+ErrType(45): Courtyards overlap
+    @(55.880 mm, 63.500 mm): Footprint X1 on F.Cu
+    @(55.880 mm, 63.500 mm): Footprint X2 on F.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **
