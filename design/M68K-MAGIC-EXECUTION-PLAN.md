@@ -32,11 +32,20 @@ altering electrical connectivity or board copper.
 `.pro`, `.sch`, and `.kicad_pcb` files.  Do not edit, resave, or use it as a
 KiCad 10 working directory.  Ignore per-user files such as `.kicad_prl`.
 
-The historical KiCad 5 PCB report at `report/68000sbc.rpt` is the electrical
-baseline: it reports zero unconnected pads and only thirteen courtyard
-overlaps.  It does not establish a clean schematic ERC, but it disproves using
-the current KiCad 10 report's apparent shorts/open connection as the reason to
-alter original copper.
+The native KiCad 5 outputs in `project-5/` are the electrical baseline:
+
+| Evidence | Result | Required treatment |
+| --- | --- | --- |
+| `68000sbc.rpt` PCB DRC | 13 courtyard overlaps; zero unconnected pads | Preserve; the overlaps require later mechanical review, not copper repair. |
+| `68000sbc.erc` schematic ERC | 1 error, 6 warnings | Reproduce after migration, then resolve deliberately in E0. |
+
+The ERC error connects the outputs of both overlapping oscillator alternatives
+(`X1` and `X2`) as though both were fitted.  This is a real schematic defect,
+even though the physical board is intended to accept one oscillator package at
+a time.  It must not be suppressed as a generic ERC exception.
+
+The KiCad 5 PCB report disproves using the current KiCad 10 report's apparent
+shorts/open connection as the reason to alter original copper.
 
 ### S0.1 Prepare the recovery workspace
 
@@ -72,7 +81,8 @@ ERC output is reproducible.
    proposed footprint/link change; reject any unexplained net, pad, or
    footprint substitution.
 3. Run KiCad 10 DRC with schematic/PCB parity enabled.
-4. Compare the resulting electrical findings with `report/68000sbc.rpt`.
+4. Compare the resulting electrical findings with `project-5/68000sbc.rpt`
+   and `project-5/68000sbc.erc`.
    A new short, open connection, or parity error is a migration defect until
    its difference from the KiCad 5 sources is demonstrated.
 
@@ -106,35 +116,38 @@ root cause in the source—not by excluding them from DRC:
 
 1. Synchronize the PCB footprints for `U3`, `C11`, and `C12` with their
    schematic symbols, preserving their intended values and footprints.
-2. Add the four mounting holes to the schematic as explicitly excluded
+2. Select one electrically connected oscillator implementation.  Model the
+   other package as an assembly alternative that cannot drive `CPUCLK` at the
+   same time; a DNP note alone does not remove the ERC output-driver conflict.
+3. Add the four mounting holes to the schematic as explicitly excluded
    mechanical items, or configure them as intentional board-only mechanics in
    a way KiCad's parity check accepts.  They must no longer be anonymous
    `REF**` footprints.
-3. Model `X1` and `X2` as mutually exclusive oscillator options, with one
-   documented assembly choice.  The BOM and placement output must not imply
-   that both are fitted.
-4. Re-run parity checks after every synchronization step; do not mix parity
+4. Model the retained oscillator package as the documented assembly choice.
+   The BOM and placement output must not imply that both are fitted.
+5. Re-run parity checks after every synchronization step; do not mix parity
    fixes with copper edits.
 
 **Exit gate:** zero `schematic_parity` findings.
 
-### E0.3 Repair the known electrical fault
+### E0.3 Resolve verified electrical findings
 
-The current DRC identifies a physical short and an open connection involving
-`Net-(C11-Pad1)` and `Net-(R3-Pad1)`, including tracks at U2 pad 5 and R3 pad
-1.  Determine the intended net from the schematic, then:
+Do not repair copper based on the disputed pre-recovery KiCad 10 report.  In
+particular, its apparent `C11`/`R3`/`U2` short/open combination was absent from
+the native KiCad 5 PCB DRC and is presumed to be a migration artifact unless
+the recovery project reproduces it.
 
-1. Remove or reroute only the offending PCB copper.
-2. Restore the intended R3-to-U2 connection with the board's configured hole
-   clearance.
-3. Verify in KiCad that the two nets remain distinct and that the intended net
-   is continuous.
-4. Run DRC; inspect the three `shorting_items`, three `hole_clearance`, and
-   one `unconnected_items` findings explicitly rather than relying only on a
-   count reduction.
+1. Triage every recovery DRC/ ERC error against the native KiCad 5 reports.
+2. Fix the verified oscillator-output conflict first, by choosing one
+   electrically active oscillator path.
+3. For each newly demonstrated board fault, determine the intended net in the
+   recovered schematic before changing copper; remove or reroute only the
+   affected copper and verify continuity/clearance in KiCad.
+4. Run DRC after each electrical correction and inspect every remaining short,
+   clearance, and unconnected-item finding individually.
 
-**Exit gate:** zero shorts, zero hole-clearance violations, and zero
-unconnected items.
+**Exit gate:** zero verified shorts, zero hole-clearance violations, zero
+unconnected items, and no unresolved ERC errors.
 
 ### E0.4 Clear release blockers and publish fabrication inputs
 
@@ -247,14 +260,14 @@ timing, ownership, GA144 link, host link, rendering deadline, and video output.
 
 ## Immediate checklist
 
-- [ ] Preserve the three `project-5/` authority files and the KiCad 5 report.
+- [ ] Preserve the `project-5/` authority files and native KiCad 5 ERC/DRC reports.
 - [ ] Establish a known-working KiCad environment using a blank schematic.
 - [ ] Convert into `project-10-recovery/`, then prove open/reopen and ERC.
 - [ ] Link the recovery PCB and compare its DRC with the KiCad 5 baseline.
 - [ ] Approve the recovery project as the sole E0 working source.
 - [ ] Run and archive a fresh KiCad 10 DRC baseline.
 - [ ] Reconcile `U3`, `C11`, `C12`, mounting holes, and oscillator options.
-- [ ] Repair the `C11`/`R3`/`U2` copper conflict and open connection.
+- [ ] Resolve the verified `X1`/`X2` oscillator-output ERC error.
 - [ ] Regenerate DRC; repeat until all electrical and parity gates pass.
 - [ ] Regenerate and review the fabrication package.
 - [ ] Assemble and prove one SBC before beginning A0/V1 hardware work.
