@@ -1,10 +1,11 @@
 # M68k MAGIC — execution plan
 
-**Status:** active planning baseline
+**Status:** source-recovery active
 
 ## Decision and order of work
 
-Repair and release the existing M68k-I-SBC **before** designing or ordering
+Recover a trustworthy KiCad 10 project from the preserved KiCad 5.1.5 source,
+then repair and release the existing M68k-I-SBC **before** designing or ordering
 MAGIC-specific hardware.  It is a reusable 12 MHz 68HC000 firmware and
 command-host platform, but it is currently under a fabrication hold.  It must
 not become the final video or GA144 board: the final machine retains separate
@@ -13,7 +14,7 @@ host, TTL-video, and GA144-render domains.
 Work proceeds only in this order:
 
 ```text
-E0 SBC electrical release -> E1 assembled-host proof -> A0 interface freeze
+S0 KiCad source recovery -> E0 SBC electrical release -> E1 assembled-host proof -> A0 interface freeze
     -> V1 independent TTL fixture -> G1 GA144/bridge bring-up
     -> I1 safe line writer -> R1 bounded renderer -> O1 composite output
 ```
@@ -22,16 +23,74 @@ A later stage may start its design documentation while its predecessor is
 being measured, but no later board may be ordered or integrated before the
 preceding gate passes.
 
+## S0 — recover the KiCad 5 design as a valid KiCad 10 project
+
+**Purpose:** establish one openable, reproducible KiCad 10 source before
+altering electrical connectivity or board copper.
+
+`project-5/` is the preserved authority.  It contains the original KiCad 5.1.5
+`.pro`, `.sch`, and `.kicad_pcb` files.  Do not edit, resave, or use it as a
+KiCad 10 working directory.  Ignore per-user files such as `.kicad_prl`.
+
+The historical KiCad 5 PCB report at `report/68000sbc.rpt` is the electrical
+baseline: it reports zero unconnected pads and only thirteen courtyard
+overlaps.  It does not establish a clean schematic ERC, but it disproves using
+the current KiCad 10 report's apparent shorts/open connection as the reason to
+alter original copper.
+
+### S0.1 Prepare the recovery workspace
+
+1. Record SHA-256 checksums for the three authority files in `project-5/` and
+   the KiCad 5 DRC report.
+2. Create a new, otherwise empty `project-10-recovery/` directory from copies
+   of the three authority files.  Never convert in place.
+3. Use a known-working KiCad installation.  It must open a blank schematic,
+   place a standard symbol, save, close, and reopen without hanging before it
+   is used for this project.
+
+### S0.2 Convert and validate the schematic
+
+1. Open the copied legacy `.sch` in the graphical Schematic Editor and let
+   KiCad create a new `.kicad_sch` file in `project-10-recovery/`.
+2. Resolve legacy symbols only through the standard libraries named by the
+   original schematic.  Confirm each remapped symbol's reference, value,
+   footprint, pin count, and pin-number mapping; do not accept a similarly
+   named symbol with different pins.
+3. Save, close the application, reopen the new `.kicad_sch`, and run ERC.
+4. Publish the ERC report and record all intentional warnings separately from
+   errors.
+
+**Exit gate:** the new schematic opens and reopens without a symbol-cache,
+instance-ID, or missing-symbol failure; every placed symbol is resolved and
+ERC output is reproducible.
+
+### S0.3 Convert/link the PCB and compare the baseline
+
+1. Open the copied legacy PCB in the same recovery project and save it as the
+   new KiCad 10 PCB.
+2. Use *Update PCB from Schematic* only after S0.2 passes.  Review each
+   proposed footprint/link change; reject any unexplained net, pad, or
+   footprint substitution.
+3. Run KiCad 10 DRC with schematic/PCB parity enabled.
+4. Compare the resulting electrical findings with `report/68000sbc.rpt`.
+   A new short, open connection, or parity error is a migration defect until
+   its difference from the KiCad 5 sources is demonstrated.
+
+**S0 completion gate:** KiCad 10 can reopen both recovery files, schematic to
+PCB linkage is valid, and DRC has no unexplained electrical finding relative
+to the KiCad 5 baseline.  Only `project-10-recovery/` may proceed to E0.
+
 ## E0 — repair the existing SBC
 
-**Purpose:** make `project/68000sbc.kicad_sch` and
-`project/68000sbc.kicad_pcb` a single electrically correct, fabrication-ready
-source of truth.
+**Purpose:** make the recovered KiCad 10 schematic and PCB a single
+electrically correct, fabrication-ready source of truth.  At E0 entry, replace
+the disputed migrated source only through an explicit reviewed handoff from
+`project-10-recovery/`; do not repair the old migration in place.
 
 ### E0.1 Preserve and establish a reproducible baseline
 
-1. Keep the published production draft as evidence; do not overwrite it by
-   hand.
+1. Keep the published production draft and KiCad 5 report as evidence; do not
+   overwrite either by hand.
 2. Open the schematic and PCB together in KiCad 10, run *Update PCB from
    Schematic*, and save the resulting intentional changes.
 3. Run `make drc` and record the resulting report before changing electrical
@@ -188,7 +247,12 @@ timing, ownership, GA144 link, host link, rendering deadline, and video output.
 
 ## Immediate checklist
 
-- [ ] Run and archive a fresh KiCad DRC baseline.
+- [ ] Preserve the three `project-5/` authority files and the KiCad 5 report.
+- [ ] Establish a known-working KiCad environment using a blank schematic.
+- [ ] Convert into `project-10-recovery/`, then prove open/reopen and ERC.
+- [ ] Link the recovery PCB and compare its DRC with the KiCad 5 baseline.
+- [ ] Approve the recovery project as the sole E0 working source.
+- [ ] Run and archive a fresh KiCad 10 DRC baseline.
 - [ ] Reconcile `U3`, `C11`, `C12`, mounting holes, and oscillator options.
 - [ ] Repair the `C11`/`R3`/`U2` copper conflict and open connection.
 - [ ] Regenerate DRC; repeat until all electrical and parity gates pass.
