@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title "68k nano single board computer"
-Date "2020-06-24"
-Rev "1"
-Comp "Matt Sarnoff (msarnoff.org)"
+Title "68k magic"
+Date "2026-10-28"
+Rev ""
+Comp "Cartheur Research"
 Comment1 ""
 Comment2 ""
 Comment3 ""
