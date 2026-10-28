@@ -4,8 +4,8 @@
 
 - Source: `68000sbc.kicad_pcb`
 - KiCad: `10.0.7`
-- Report time: `2026-10-28T14:43:04`
-- Violations: **248**
+- Report time: `2026-10-28T14:54:08`
+- Violations: **246**
 - Unconnected items: **1**
 - Schematic/PCB parity findings: **10**
 - Electrical release blockers: **7**
@@ -22,7 +22,7 @@ Do not release fabrication files while electrical release blockers remain.
 | 34 | `silk_overlap` | Review |
 | 16 | `pth_inside_courtyard` | Review |
 | 13 | `courtyards_overlap` | Review |
-| 9 | `starved_thermal` | Review |
+| 7 | `starved_thermal` | Review |
 | 7 | `solder_mask_bridge` | Review |
 | 4 | `holes_co_located` | Review |
 | 3 | `shorting_items` | Blocker |
@@ -38,11 +38,11 @@ Do not release fabrication files while electrical release blockers remain.
 ### `hole_clearance` (3)
 
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
-    - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
-    - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
-- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
     - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
+- Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
+    - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
 - Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
     - Track [Net-(C11-Pad1)] on B.Cu, length 3.5921 mm at (134.62, 97.79)
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
@@ -75,12 +75,12 @@ Do not release fabrication files while electrical release blockers remain.
 
 ### `shorting_items` (3)
 
-- Items shorting two nets (nets Net-(R3-Pad1) and Net-(C11-Pad1))
-    - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
-    - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
 - Items shorting two nets (nets Net-(C11-Pad1) and Net-(R3-Pad1))
     - Track [Net-(C11-Pad1)] on F.Cu, length 5.3882 mm at (52.07, 107.95)
     - PTH pad 5 [Net-(R3-Pad1)] of U2 at (48.26, 104.14)
+- Items shorting two nets (nets Net-(R3-Pad1) and Net-(C11-Pad1))
+    - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
+    - Track [Net-(C11-Pad1)] on B.Cu, length 2.5400 mm at (137.16, 97.79)
 - Items shorting two nets (nets Net-(R3-Pad1) and Net-(C11-Pad1))
     - PTH pad 1 [Net-(R3-Pad1)] of R3 at (134.62, 97.79)
     - Track [Net-(C11-Pad1)] on B.Cu, length 3.5921 mm at (134.62, 97.79)
