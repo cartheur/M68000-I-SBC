@@ -22,7 +22,7 @@ There isn’t one universal body size or complete dimensional drawing for every 
 | Maximum supply current | 50 mA |
 | Status | Discontinued / obsolete |
 
-Package dimensions and electrical figures are listed for the TMP68HC000N-16; check the Toshiba [datasheet](/datasheets/TMP68HC000X.pdf) before designing a footprint or setting operating limits.
+Package dimensions and electrical figures are listed for the TMP68HC000N-16; check the Toshiba [datasheet](/datasheets/TMP68HC000X.pdf) before designing a footprint or setting operating limits. The reusable SDIP footprint and the DIP-64 adapter board are documented in [four-layer/ADAPTER-DESIGN.md](four-layer/ADAPTER-DESIGN.md).
 
 ### Comparatives
 
@@ -57,3 +57,29 @@ For your adapter, make a small PCB with:
 - One-to-one connections between corresponding pins, preserving pin 1 orientation.
 
 KiCad’s built-in DIP library may help with the standard-DIP side, but the shrink-DIP socket footprint will likely need to be custom. Verify the actual socket dimensions and pin numbering before ordering the board; the component’s package drawing and the socket drawing are what determine the footprint.
+
+## Adapter implementation
+
+The project now includes a generated, direct 1:1 `SDIP64-P-750-1.78` to
+`DIP-64_W22.86mm` adapter board. It is designed for the production board's
+22.86 mm row-spacing DIP-64 socket. Start with [four-layer/ADAPTER-DESIGN.md](four-layer/ADAPTER-DESIGN.md)
+for the dimensions, assembly method, and mandatory 1:1 print/DRC checks.
+The constrained production-board envelope requires a compact four-layer
+routing strategy, documented in [four-layer/FOUR-LAYER-ROUTING.md](four-layer/FOUR-LAYER-ROUTING.md).
+
+## Adapter design status
+
+The adapter work is organized by routing approach:
+
+| Directory | Status | Contents |
+|---|---|---|
+| [`two-layer/`](two-layer/) | Rejected | DRC evidence for the compact two-layer fan-out attempt. It has 591 violations, including shorts, and must not be fabricated. |
+| [`four-layer/`](four-layer/) | Active routing template | Mechanically accurate SDIP64 footprint, compact adapter PCB, generator, four-layer routing plan, and published DRC reports. |
+
+The four-layer PCB is intentionally marked **ROUTING REQUIRED — DO NOT
+FABRICATE**. Its current DRC report records the expected 64 unconnected nets.
+The associated two-layer and four-layer auto-route reports are retained for
+review; both attempts were rejected because their copper created shorts around
+the overlapping plated-through footprints. A production release requires an
+interactive route with zero DRC errors and zero unconnected nets, followed by
+a 1:1 mechanical overlay and continuity testing.
