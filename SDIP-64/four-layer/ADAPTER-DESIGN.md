@@ -19,6 +19,29 @@ The upper footprint implements Toshiba `SDIP64-P-750-1.78` geometry:
 | Maximum body height | 4.7 ±0.3 mm |
 | Upper pad / hole | 1.40 / 0.80 mm |
 
+### Procured CPU socket
+
+The intended CPU-side part is a 64-pin, through-hole SDIP socket ordered from
+an eBay listing.  Its seller-supplied specifications are recorded here as a
+useful procurement reference; they are **not** a substitute for measuring the
+actual part before releasing the PCB.
+
+| Seller specification | Stated value | Design use |
+|---|---:|---|
+| Pins / ports | 64 | Matches the CPU pin count |
+| Nominal pitch | 1.778 mm | Matches the SDIP footprint pitch |
+| Item length | 56.90 mm | Consistent with the approximately 57.5 mm CPU package length |
+| Item width | 21.54 mm | Socket outside width; do not use as the lead-row spacing |
+| Item height | 8.1 mm | Clearance requirement above the SBC |
+| Mounting / termination | Through-hole / solder | Suitable for the adapter's upper side |
+
+Before fabrication, measure the socket tail pitch over multiple positions,
+tail-row centre spacing, tail width/thickness and tail length, outside-body
+dimensions, and the pin-1/notch orientation.  In particular, confirm the
+tail rows are 19.05 mm apart; the listing does not state this dimension. Use
+the measurements to adjust the upper drill/pad dimensions and complete a 1:1
+printed overlay check.
+
 The lower footprint matches `Package_DIP:DIP-64_W22.86mm_Socket` on the
 production board:
 
@@ -28,11 +51,54 @@ production board:
 | Lower lead-row spacing | 22.86 mm (0.900 in) |
 | Lower pad / hole | 1.60 / 0.90 mm |
 
+### Host-socket and header-pin interface
+
+The production U3 pattern is two 32-pin rows at 2.54 mm (0.100 in) pitch and
+22.86 mm (0.900 in) row centres. There are two validated socket options:
+
+1. **One-piece DIP socket:** Preci-Dip `110-PP-964-41-001101` is listed as
+   64 poles, `A = 81.2 mm`, `B = 22.86 mm`, and `C = 25.3 mm`. It is a direct
+   mechanical match for U3.
+2. **Two separate row sockets (preferred for this adapter):** Mill-Max
+   `311-93-164-41-001000` is a 64-position, single-row, 2.54 mm-pitch socket
+   strip. Cut it into two 32-position sections and install one section in
+   each U3 row. Because each section is single-row, the board establishes the
+   required 22.86 mm separation. Its long solder tails are suitable for the
+   SBC's through holes.
+
+The Mill-Max contact accepts **0.38–0.635 mm** round leads; Preci-Dip accepts
+**0.40–0.56 mm**. Use male header or turned pins in their common range—e.g.
+0.50 mm round—on the adapter. That is the contact-size limit, irrespective
+of the larger 0.90 mm adapter PCB drill.
+
+The supplied Adam Tech `ICS-6XX-T` drawing instead specifies **0.600 in
+(15.24 mm) row spacing**. It cannot mate with U3, even if two 32-position
+parts are used: splitting the length does not change the 15.24 mm row spacing.
+
 The SDIP pin-1 / pin-64 end is aligned with the DIP pin-1 / pin-64 end. The
 unused 23.622 mm of DIP length is therefore at the pin-32 / pin-33 end. Each
 signal escapes into the interior with two 0.80/0.40 mm vias before the pitch
 transition, avoiding the neighbouring through-holes that a direct diagonal
 trace would cross.
+
+## Direct-fit validation — CPU must not be fitted to U3
+
+The Toshiba `TMP68HC000N` SDIP-64 **cannot** directly plug into the production
+SBC's U3 holes. This is a mechanical non-fit, independent of the electrical
+pinout:
+
+| Geometry | TMP68HC000N SDIP-64 | Production U3 |
+|---|---:|---:|
+| Pin pitch along either row | 1.778 mm (0.070 in) | 2.54 mm (0.100 in) |
+| Pin-row centre separation | 19.05 mm (0.750 in) | 22.86 mm (0.900 in) |
+| Span from first to last pin in a 32-pin row | 55.118 mm | 78.740 mm |
+
+If pin 1 is placed over its corresponding U3 hole, the next pin is already
+0.762 mm off centre; the error grows by another 0.762 mm at every position,
+reaching 23.622 mm at pin 32. The opposite lead row is also 3.81 mm too close
+together. The CPU therefore must only be used through the SDIP-to-DIP adapter
+and its SDIP socket. Never force it into U3 or into the board-side Mill-Max /
+Preci-Dip socket arrangement.
 
 ## Files
 
@@ -42,12 +108,15 @@ trace would cross.
 
 ## Assembly
 
-1. Fit 64 turned male pins from the **B.Cu / HOST SIDE**. Their tails must
-   suit the socket fitted to the production SBC; 0.46–0.64 mm square or round
-   pins are appropriate for the 0.90 mm finished holes.
-2. Insert the CPU on the **F.Cu / CPU SIDE**, aligned with the pin-1 legend.
-   Solder it directly. Do not bend its leads to fit the host socket.
-3. Inspect for bridges, then verify continuity from every upper pin *n* to
+1. Fit 64 turned male pins from the **B.Cu / HOST SIDE**: two 32-pin sections
+   on 2.54 mm pitch and 22.86 mm row centres. For either the Preci-Dip or
+   Mill-Max socket option, use a 0.40–0.56 mm mating diameter (for example,
+   0.50 mm round); the adapter's 0.90 mm finished holes are not the
+   contact-size limit.
+2. Fit the measured SDIP-64 socket on the **F.Cu / CPU SIDE**, aligned with
+   the pin-1 legend. Insert the CPU into that socket; do not bend or solder
+   the CPU leads directly to the adapter.
+3. Inspect for bridges, then verify continuity from every upper socket pin *n* to
    lower pin *n*. Confirm no continuity exists between adjacent pins.
 4. Only then insert the completed adapter into the host DIP-64 socket, with
    both pin-1 markers at the same end.
