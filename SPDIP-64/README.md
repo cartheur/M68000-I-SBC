@@ -47,3 +47,13 @@ I need footprint for 68000 (Shrink DIP). Any idea where to find?
 
 this is trivial to make. open footprint editor. set grid to 0.050". set pads in right places - they auto increment.
 go to properties make that part THT (through hole). oh and if pads are not though hole, edit one to make it correct., then set is as default and apply default to all other pads. done.
+
+I couldn’t find a ready-made KiCad project specifically for an **SDIP-64-to-DIP-64 socket adapter**. The closest useful resource is a KiCad forum thread discussing **1.778 mm-pitch high-density DIP footprints**; it explains using KiCad’s Footprint Wizard to make the footprint from the socket’s dimensions. [Read the discussion](https://forum.kicad.info/t/high-density-dip-footprints/21154).
+
+For your adapter, make a small PCB with:
+
+- A **64-pin SDIP socket footprint** matching the TMP68HC000N-16 socket’s datasheet drawing.
+- A **64-pin standard DIP footprint** with 2.54 mm pitch for the target socket or breadboard.
+- One-to-one connections between corresponding pins, preserving pin 1 orientation.
+
+KiCad’s built-in DIP library may help with the standard-DIP side, but the shrink-DIP socket footprint will likely need to be custom. Verify the actual socket dimensions and pin numbering before ordering the board; the component’s package drawing and the socket drawing are what determine the footprint.
