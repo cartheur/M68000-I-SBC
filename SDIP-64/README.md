@@ -1,4 +1,4 @@
-## SPDIP-64
+## SDIP-64
 
 “Shrink DIP64” usually refers to a 64-lead shrink plastic dual-in-line package (SPDIP). Its defining feature is 0.070 in (1.778 mm) lead pitch, rather than the standard DIP’s 0.100 in (2.54 mm). It has 32 leads per row. 
 Wikipedia
