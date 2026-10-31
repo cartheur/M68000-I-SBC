@@ -24,6 +24,23 @@ There isn’t one universal body size or complete dimensional drawing for every 
 
 Package dimensions and electrical figures are listed for the TMP68HC000N-16; check the Toshiba [datasheet](/datasheets/TMP68HC000X.pdf) before designing a footprint or setting operating limits.
 
+### Comparatives
+
+The standard-package counterpart is **TMP68HC000P-16**. It shares the same 68HC000 processor and 16.67 MHz rating as the **TMP68HC000N-16**; the main difference is the package. <citation src="3,4"></citation>
+
+| Feature | TMP68HC000N-16 | TMP68HC000P-16 |
+|---|---|---|
+| Package type | Shrink DIP (SDIP-64) | Standard plastic DIP (PDIP-64) |
+| Pin count | 64 | 64 |
+| Processor | Toshiba 68HC000 | Toshiba 68HC000 |
+| Maximum clock | 16.67 MHz | 16.67 MHz |
+| Data width | 16-bit | 16-bit |
+| Address bus | 23-bit | 23-bit |
+| Lead pitch | 1.778 mm (0.070 in) for shrink DIP | 2.54 mm (0.100 in) for standard DIP |
+| PCB/socket compatibility | Requires SDIP-64 footprint or socket | Requires standard DIP-64 footprint or socket |
+
+The **P and N packages are not drop-in replacements for each other**: their lead pitch differs, so they need different footprints or sockets. Check the Toshiba package [drawings](/datasheets/TMP68HC000X.pdf) before laying out a board; reseller listings can use “DIP64” loosely for either package.
+
 ### Advice
 
 I need footprint for 68000 (Shrink DIP). Any idea where to find?
