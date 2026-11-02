@@ -5,7 +5,11 @@ KiCad board for the direct 1:1 TMP68HC000N SDIP-64 to the SBC's U3 DIP-64
 adapter. It contains the verified geometry but **no copper tracks**, so it is
 not a fabrication candidate.
 
-The generator is the authoritative source for the board. Regenerate it with:
+`generate_adapter.py` produced the initial, unrouted baseline. Do not run it
+after interactive routing has begun: it rewrites the board and removes tracks.
+The routed `.kicad_pcb` is the authoritative design file.
+
+To regenerate a fresh unrouted baseline:
 
 ```sh
 python3 generate_adapter.py
@@ -16,10 +20,12 @@ and a complete netlist joining upper pin *n* only to lower pin *n*. It is the
 reproducible starting point for a two-layer routing trial: make a copy, route
 it, and retain that PCB alongside its KiCad DRC report.
 
-The SDIP rows are centred along the 32-position host rows. The board is 34.86
-mm wide by 90.74 mm long, providing a 6 mm perimeter routing margin around
-the host-pad envelope. Every host pin is identified on `F.SilkS`, outside its
-respective row: pins 1–32 on the left and pins 64–33 on the right.
+The SDIP rows are centred along the 32-position host rows. The current routed
+board is 38.86 mm wide by 100.74 mm long. Its lower-left routing reserve was
+extended 5 mm left and 10 mm below the initial 6 mm perimeter margin, allowing
+the remaining lower-row connections to pass around the populated routing
+channels. Every host pin is identified on `F.SilkS`, outside its respective
+row: pins 1–32 on the left and pins 64–33 on the right.
 
 ## SBC mounting and clearance
 
