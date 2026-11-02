@@ -10,6 +10,7 @@ PITCH_DIP = 2.54
 SDIP_ROW = 19.05
 DIP_ROW = 22.86
 SDIP_START = (31 * PITCH_DIP - 31 * PITCH_SDIP) / 2
+EDGE_MARGIN = 6.0
 
 
 def position(pin: int, sdip: bool) -> tuple[float, float]:
@@ -81,8 +82,7 @@ def make_board() -> str:
     out.extend(f'\t(net {pin} "P{pin:02d}")' for pin in range(1, 65))
     out.append(make_footprint("SDIP64-P-750-1.78", "U1", "TMP68HC000N / SDIP SOCKET", True))
     out.append(make_footprint("DIP-64_W22.86mm", "J1", "TO SBC U3", False))
-    out.append('''\t(gr_rect (start 95.5 98.5) (end 127.36 180.24) (stroke (width 0.25) (type default)) (fill none) (layer "Edge.Cuts"))
-\t(gr_text "SDIP64 (1.778 mm) to DIP64 (2.54 mm)\\nTWO-LAYER ROUTING BASELINE — UNROUTED — DO NOT FABRICATE" (at 111.43 96.3) (layer "F.SilkS") (effects (font (size 1.0 1.0) (thickness 0.17)) (justify)))''')
+    out.append(f'''\t(gr_rect (start {100 - EDGE_MARGIN:.2f} {100 - EDGE_MARGIN:.2f}) (end {100 + DIP_ROW + EDGE_MARGIN:.2f} {100 + 31 * PITCH_DIP + EDGE_MARGIN:.2f}) (stroke (width 0.25) (type default)) (fill none) (layer "Edge.Cuts"))''')
     out.append(outer_pin_labels())
     out.append(")\n")
     return "\n".join(out)

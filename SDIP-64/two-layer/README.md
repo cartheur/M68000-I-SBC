@@ -16,10 +16,37 @@ and a complete netlist joining upper pin *n* only to lower pin *n*. It is the
 reproducible starting point for a two-layer routing trial: make a copy, route
 it, and retain that PCB alongside its KiCad DRC report.
 
-The SDIP rows are centred along the 32-position host rows. The board is 31.86
-mm wide, providing 4.5 mm of clearance beyond each 22.86 mm-spaced host row.
-Every host pin is identified on `F.SilkS`, outside its respective row: pins
-1–32 on the left and pins 64–33 on the right.
+The SDIP rows are centred along the 32-position host rows. The board is 34.86
+mm wide by 90.74 mm long, providing a 6 mm perimeter routing margin around
+the host-pad envelope. Every host pin is identified on `F.SilkS`, outside its
+respective row: pins 1–32 on the left and pins 64–33 on the right.
+
+## SBC mounting and clearance
+
+Mount the adapter through two 1×32, 2.54 mm-pitch tall female header strips
+at the SBC U3 row spacing of 22.86 mm. Fit matching 2.54 mm male header strips
+to the adapter underside. The selected female headers are 8 mm tall, placing
+the adapter underside at least approximately 8 mm above the SBC (and normally
+slightly higher when the male-header carrier is included). This permits the
+adapter to overfly the nearby C2, C3, and C4 capacitors despite the enlarged
+34.86 × 90.74 mm outline.
+
+Confirm the actual mating height, solder-joint clearance, and the height of
+the fitted capacitors with a dry assembly before ordering the adapter.
+
+## Timing and routing length
+
+Centreing the SDIP rows makes the middle pins almost longitudinally aligned
+with their respective host pads: the residual offset is approximately 0.381
+mm. The largest longitudinal offset occurs at the row ends and is 11.811 mm.
+An approximately 12 mm FR-4 trace adds only about 70–90 ps of propagation
+delay, compared with the 62.5 ns clock period of the selected 16 MHz
+oscillator. No trace-length matching is required for this adapter.
+
+Route the clock and asynchronous control signals directly where practical,
+avoid unnecessary loops and lengthy parallel runs, and retain effective local
+decoupling and signal-return paths. These signal- and power-integrity concerns
+matter more than the small pin-to-pin delay differences on this board.
 
 ## Geometry under test
 
