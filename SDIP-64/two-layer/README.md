@@ -16,6 +16,11 @@ and a complete netlist joining upper pin *n* only to lower pin *n*. It is the
 reproducible starting point for a two-layer routing trial: make a copy, route
 it, and retain that PCB alongside its KiCad DRC report.
 
+The SDIP rows are centred along the 32-position host rows. The board is 31.86
+mm wide, providing 4.5 mm of clearance beyond each 22.86 mm-spaced host row.
+Every host pin is identified on `F.SilkS`, outside its respective row: pins
+1–32 on the left and pins 64–33 on the right.
+
 ## Geometry under test
 
 | Interface | Lead pitch | Row spacing |
