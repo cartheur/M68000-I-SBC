@@ -1,0 +1,2173 @@
+** Drc report for SDIP64-to-DIP64-adapter.kicad_pcb **
+** Created on 2026-10-31T11:23:42 **
+** Report includes: Errors, Warnings **
+
+** Found 620 DRC violations **
+[shorting_items]: Items shorting two nets (nets P04 and P05)
+    Local override; error
+    @(104.7600 mm, 107.6200 mm): Track [P04] on B.Cu, length 4.7600 mm
+    @(101.9050 mm, 107.1120 mm): PTH pad 5 [P05] of U1
+[shorting_items]: Items shorting two nets (nets P04 and P03)
+    Local override; error
+    @(101.9050 mm, 105.3340 mm): PTH pad 4 [P04] of U1
+    @(104.2100 mm, 105.0800 mm): Track [P03] on B.Cu, length 4.2100 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(104.7600 mm, 107.6200 mm): Via [P04] on F.Cu - B.Cu
+    @(101.9050 mm, 107.1120 mm): Track [P05] on F.Cu, length 3.4050 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(101.9050 mm, 110.6680 mm): Track [P07] on F.Cu, length 4.5050 mm
+    @(105.3100 mm, 110.1600 mm): Via [P05] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(104.2100 mm, 105.0800 mm): Via [P03] on F.Cu - B.Cu
+    @(104.7600 mm, 105.3340 mm): Via [P04] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P07 and P10)
+    Local override; error
+    @(106.4100 mm, 115.2400 mm): Track [P07] on B.Cu, length 6.4100 mm
+    @(101.9050 mm, 116.0020 mm): PTH pad 10 [P10] of U1
+[shorting_items]: Items shorting two nets (nets P07 and P05)
+    Local override; error
+    @(101.9050 mm, 110.6680 mm): PTH pad 7 [P07] of U1
+    @(105.3100 mm, 110.1600 mm): Track [P05] on B.Cu, length 5.3100 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(104.2100 mm, 105.0800 mm): Via [P03] on F.Cu - B.Cu
+    @(104.7600 mm, 105.3340 mm): Via [P04] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P08 and P06)
+    Local override; error
+    @(101.9050 mm, 112.4460 mm): Track [P08] on F.Cu, length 5.0550 mm
+    @(105.8600 mm, 112.7000 mm): Via [P06] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(104.2100 mm, 105.0800 mm): Via [P03] on F.Cu - B.Cu
+    @(104.7600 mm, 105.3340 mm): Via [P04] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P08 and P11)
+    Local override; error
+    @(106.9600 mm, 117.7800 mm): Via [P08] on F.Cu - B.Cu
+    @(101.9050 mm, 117.7800 mm): Track [P11] on F.Cu, length 6.7050 mm
+[shorting_items]: Items shorting two nets (nets P08 and P11)
+    Local override; error
+    @(106.9600 mm, 117.7800 mm): Track [P08] on B.Cu, length 6.9600 mm
+    @(101.9050 mm, 117.7800 mm): PTH pad 11 [P11] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(104.2100 mm, 105.0800 mm): Via [P03] on F.Cu - B.Cu
+    @(104.7600 mm, 105.3340 mm): Via [P04] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P12 and P09)
+    Local override; error
+    @(101.9050 mm, 119.5580 mm): PTH pad 12 [P12] of U1
+    @(107.5100 mm, 120.3200 mm): Track [P09] on B.Cu, length 7.5100 mm
+[shorting_items]: Items shorting two nets (nets P14 and P10)
+    Local override; error
+    @(101.9050 mm, 123.1140 mm): PTH pad 14 [P14] of U1
+    @(108.0600 mm, 122.8600 mm): Track [P10] on B.Cu, length 8.0600 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(109.1600 mm, 127.9400 mm): Track [P12] on B.Cu, length 9.1600 mm
+    @(103.1100 mm, 128.4480 mm): Via [P17] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P11 and P15)
+    Local override; error
+    @(108.6100 mm, 125.4000 mm): Track [P11] on B.Cu, length 8.6100 mm
+    @(101.9050 mm, 124.8920 mm): PTH pad 15 [P15] of U1
+[shorting_items]: Items shorting two nets (nets P14 and P10)
+    Local override; error
+    @(101.9050 mm, 123.1140 mm): Track [P14] on F.Cu, length 8.3550 mm
+    @(108.0600 mm, 122.8600 mm): Via [P10] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P13 and P18)
+    Local override; error
+    @(109.7100 mm, 130.4800 mm): Track [P13] on B.Cu, length 9.7100 mm
+    @(101.9050 mm, 130.2260 mm): PTH pad 18 [P18] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(101.9050 mm, 124.8920 mm): Track [P15] on F.Cu, length 8.9050 mm
+    @(108.6100 mm, 125.4000 mm): Via [P11] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P21 and P15)
+    Local override; error
+    @(101.9050 mm, 135.5600 mm): PTH pad 21 [P21] of U1
+    @(110.8100 mm, 135.5600 mm): Track [P15] on B.Cu, length 10.8100 mm
+[shorting_items]: Items shorting two nets (nets P20 and P14)
+    Local override; error
+    @(101.9050 mm, 133.7820 mm): PTH pad 20 [P20] of U1
+    @(110.2600 mm, 133.0200 mm): Track [P14] on B.Cu, length 10.2600 mm
+[shorting_items]: Items shorting two nets (nets P17 and P24)
+    Local override; error
+    @(103.1100 mm, 140.6400 mm): Via [P17] on F.Cu - B.Cu
+    @(101.9050 mm, 140.8940 mm): Track [P24] on F.Cu, length 5.0550 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.3600 mm, 138.1000 mm): Track [P16] on B.Cu, length 11.3600 mm
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P16 and P49)
+    Local override; error
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.3600 mm, 126.6700 mm): Track [P16] on In1.Cu, length 11.4300 mm
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P16 and P49)
+    Local override; error
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P17 and P24)
+    Local override; error
+    @(103.1100 mm, 140.6400 mm): Track [P17] on B.Cu, length 3.1100 mm
+    @(101.9050 mm, 140.8940 mm): PTH pad 24 [P24] of U1
+[shorting_items]: Items shorting two nets (nets P18 and P25)
+    Local override; error
+    @(103.6600 mm, 143.1800 mm): Track [P18] on B.Cu, length 3.6600 mm
+    @(101.9050 mm, 142.6720 mm): PTH pad 25 [P25] of U1
+[shorting_items]: Items shorting two nets (nets P16 and P49)
+    Local override; error
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P16 and P49)
+    Local override; error
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(104.2100 mm, 145.7200 mm): Via [P19] on F.Cu - B.Cu
+    @(101.9050 mm, 146.2280 mm): Track [P27] on F.Cu, length 6.7050 mm
+[shorting_items]: Items shorting two nets (nets P20 and P28)
+    Local override; error
+    @(104.7600 mm, 148.2600 mm): Via [P20] on F.Cu - B.Cu
+    @(101.9050 mm, 148.0060 mm): Track [P28] on F.Cu, length 7.2550 mm
+[shorting_items]: Items shorting two nets (nets P28 and P20)
+    Local override; error
+    @(101.9050 mm, 148.0060 mm): PTH pad 28 [P28] of U1
+    @(104.7600 mm, 148.2600 mm): Track [P20] on B.Cu, length 4.7600 mm
+[shorting_items]: Items shorting two nets (nets P27 and P19)
+    Local override; error
+    @(101.9050 mm, 146.2280 mm): PTH pad 27 [P27] of U1
+    @(104.2100 mm, 145.7200 mm): Track [P19] on B.Cu, length 4.2100 mm
+[shorting_items]: Items shorting two nets (nets P21 and P15)
+    Local override; error
+    @(105.3100 mm, 135.5600 mm): Via [P21] on F.Cu - B.Cu
+    @(110.8100 mm, 135.5600 mm): Track [P15] on B.Cu, length 10.8100 mm
+[shorting_items]: Items shorting two nets (nets P30 and P21)
+    Local override; error
+    @(101.9050 mm, 151.5620 mm): PTH pad 30 [P30] of U1
+    @(105.3100 mm, 150.8000 mm): Track [P21] on B.Cu, length 5.3100 mm
+[shorting_items]: Items shorting two nets (nets P06 and P08)
+    Local override; error
+    @(105.8600 mm, 112.7000 mm): Track [P06] on B.Cu, length 5.8600 mm
+    @(101.9050 mm, 112.4460 mm): PTH pad 8 [P08] of U1
+[shorting_items]: Items shorting two nets (nets P22 and P31)
+    Local override; error
+    @(105.8600 mm, 153.3400 mm): Via [P22] on F.Cu - B.Cu
+    @(101.9050 mm, 153.3400 mm): Track [P31] on F.Cu, length 8.9050 mm
+[shorting_items]: Items shorting two nets (nets P22 and P31)
+    Local override; error
+    @(105.8600 mm, 153.3400 mm): Track [P22] on B.Cu, length 5.8600 mm
+    @(101.9050 mm, 153.3400 mm): PTH pad 31 [P31] of U1
+[shorting_items]: Items shorting two nets (nets P23 and P32)
+    Local override; error
+    @(106.4100 mm, 155.8800 mm): Track [P23] on B.Cu, length 6.4100 mm
+    @(101.9050 mm, 155.1180 mm): PTH pad 32 [P32] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(101.9050 mm, 142.6720 mm): Track [P25] on F.Cu, length 5.6050 mm
+    @(103.6600 mm, 143.1800 mm): Via [P18] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(101.9050 mm, 155.1180 mm): Track [P32] on F.Cu, length 9.4550 mm
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.7100 mm, 155.1180 mm): Track [P33] on In1.Cu, length 23.6220 mm
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.3600 mm, 155.1180 mm): Track [P32] on In2.Cu, length 23.6220 mm
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(120.9550 mm, 155.1180 mm): Track [P33] on F.Cu, length 9.2450 mm
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.7100 mm, 178.7400 mm): Track [P33] on B.Cu, length 11.1500 mm
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 178.7400 mm): Track [P32] on B.Cu, length 11.3600 mm
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P32)
+    Local override; error
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P34 and P43)
+    Local override; error
+    @(120.9550 mm, 153.3400 mm): Track [P34] on F.Cu, length 8.6950 mm
+    @(117.2100 mm, 153.3400 mm): Via [P43] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(120.9550 mm, 146.2280 mm): Track [P38] on F.Cu, length 6.4950 mm
+    @(118.8600 mm, 145.7200 mm): Via [P46] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(120.9550 mm, 142.6720 mm): Track [P40] on F.Cu, length 5.3950 mm
+    @(119.4100 mm, 143.1800 mm): Via [P47] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P41 and P48)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): Track [P41] on F.Cu, length 4.8450 mm
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P33 and P42)
+    Local override; error
+    @(120.9550 mm, 155.1180 mm): PTH pad 33 [P33] of U1
+    @(116.6600 mm, 155.8800 mm): Track [P42] on B.Cu, length 6.2000 mm
+[shorting_items]: Items shorting two nets (nets P34 and P43)
+    Local override; error
+    @(120.9550 mm, 153.3400 mm): PTH pad 34 [P34] of U1
+    @(117.2100 mm, 153.3400 mm): Track [P43] on B.Cu, length 5.6500 mm
+[shorting_items]: Items shorting two nets (nets P35 and P44)
+    Local override; error
+    @(120.9550 mm, 151.5620 mm): PTH pad 35 [P35] of U1
+    @(117.7600 mm, 150.8000 mm): Track [P44] on B.Cu, length 5.1000 mm
+[shorting_items]: Items shorting two nets (nets P45 and P37)
+    Local override; error
+    @(118.3100 mm, 148.2600 mm): Via [P45] on F.Cu - B.Cu
+    @(120.9550 mm, 148.0060 mm): Track [P37] on F.Cu, length 7.0450 mm
+[shorting_items]: Items shorting two nets (nets P37 and P45)
+    Local override; error
+    @(120.9550 mm, 148.0060 mm): PTH pad 37 [P37] of U1
+    @(118.3100 mm, 148.2600 mm): Track [P45] on B.Cu, length 4.5500 mm
+[shorting_items]: Items shorting two nets (nets P46 and P38)
+    Local override; error
+    @(118.8600 mm, 145.7200 mm): Track [P46] on B.Cu, length 4.0000 mm
+    @(120.9550 mm, 146.2280 mm): PTH pad 38 [P38] of U1
+[shorting_items]: Items shorting two nets (nets P47 and P52)
+    Local override; error
+    @(119.4100 mm, 130.2260 mm): Via [P47] on F.Cu - B.Cu
+    @(113.3600 mm, 130.4800 mm): Track [P52] on B.Cu, length 9.5000 mm
+[shorting_items]: Items shorting two nets (nets P47 and P40)
+    Local override; error
+    @(119.4100 mm, 143.1800 mm): Track [P47] on B.Cu, length 3.4500 mm
+    @(120.9550 mm, 142.6720 mm): PTH pad 40 [P40] of U1
+[shorting_items]: Items shorting two nets (nets P41 and P48)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Track [P48] on B.Cu, length 2.9000 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(119.9600 mm, 128.4480 mm): Via [P48] on F.Cu - B.Cu
+    @(113.9100 mm, 127.9400 mm): Track [P53] on B.Cu, length 8.9500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0769 mm)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(120.9550 mm, 126.6700 mm): Track [P49] on F.Cu, length 9.2450 mm
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0769 mm)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P49 and P16)
+    Local override; error
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0769 mm)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0769 mm)
+    Local override; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P49 and P16)
+    Local override; error
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(120.9550 mm, 124.8920 mm): Track [P50] on F.Cu, length 8.6950 mm
+    @(114.4600 mm, 125.4000 mm): Via [P54] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P49 and P16)
+    Local override; error
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P49 and P43)
+    Local override; error
+    @(111.7100 mm, 138.1000 mm): Track [P49] on B.Cu, length 11.1500 mm
+    @(120.9550 mm, 137.3380 mm): PTH pad 43 [P43] of U1
+[shorting_items]: Items shorting two nets (nets P49 and P16)
+    Local override; error
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0250 mm)
+    Local override; error
+    @(111.7100 mm, 126.6700 mm): Track [P49] on In2.Cu, length 11.4300 mm
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P50 and P44)
+    Local override; error
+    @(112.2600 mm, 135.5600 mm): Track [P50] on B.Cu, length 10.6000 mm
+    @(117.7600 mm, 135.5600 mm): Via [P44] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P51 and P55)
+    Local override; error
+    @(120.9550 mm, 123.1140 mm): Track [P51] on F.Cu, length 8.1450 mm
+    @(115.0100 mm, 122.8600 mm): Via [P55] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P51 and P45)
+    Local override; error
+    @(112.8100 mm, 133.0200 mm): Track [P51] on B.Cu, length 10.0500 mm
+    @(120.9550 mm, 133.7820 mm): PTH pad 45 [P45] of U1
+[shorting_items]: Items shorting two nets (nets P52 and P47)
+    Local override; error
+    @(113.3600 mm, 130.4800 mm): Track [P52] on B.Cu, length 9.5000 mm
+    @(120.9550 mm, 130.2260 mm): PTH pad 47 [P47] of U1
+[shorting_items]: Items shorting two nets (nets P48 and P53)
+    Local override; error
+    @(120.9550 mm, 128.4480 mm): PTH pad 48 [P48] of U1
+    @(113.9100 mm, 127.9400 mm): Track [P53] on B.Cu, length 8.9500 mm
+[shorting_items]: Items shorting two nets (nets P50 and P54)
+    Local override; error
+    @(120.9550 mm, 124.8920 mm): PTH pad 50 [P50] of U1
+    @(114.4600 mm, 125.4000 mm): Track [P54] on B.Cu, length 8.4000 mm
+[shorting_items]: Items shorting two nets (nets P55 and P51)
+    Local override; error
+    @(115.0100 mm, 122.8600 mm): Track [P55] on B.Cu, length 7.8500 mm
+    @(120.9550 mm, 123.1140 mm): PTH pad 51 [P51] of U1
+[shorting_items]: Items shorting two nets (nets P57 and P59)
+    Local override; error
+    @(120.9550 mm, 112.4460 mm): Track [P57] on F.Cu, length 4.8450 mm
+    @(117.2100 mm, 112.7000 mm): Via [P59] on F.Cu - B.Cu
+[shorting_items]: Items shorting two nets (nets P53 and P56)
+    Local override; error
+    @(120.9550 mm, 119.5580 mm): PTH pad 53 [P53] of U1
+    @(115.5600 mm, 120.3200 mm): Track [P56] on B.Cu, length 7.3000 mm
+[shorting_items]: Items shorting two nets (nets P57 and P54)
+    Local override; error
+    @(116.1100 mm, 117.7800 mm): Via [P57] on F.Cu - B.Cu
+    @(120.9550 mm, 117.7800 mm): Track [P54] on F.Cu, length 6.4950 mm
+[shorting_items]: Items shorting two nets (nets P57 and P54)
+    Local override; error
+    @(116.1100 mm, 117.7800 mm): Track [P57] on B.Cu, length 6.7500 mm
+    @(120.9550 mm, 117.7800 mm): PTH pad 54 [P54] of U1
+[shorting_items]: Items shorting two nets (nets P55 and P58)
+    Local override; error
+    @(120.9550 mm, 116.0020 mm): PTH pad 55 [P55] of U1
+    @(116.6600 mm, 115.2400 mm): Track [P58] on B.Cu, length 6.2000 mm
+[shorting_items]: Items shorting two nets (nets P59 and P57)
+    Local override; error
+    @(117.2100 mm, 112.7000 mm): Track [P59] on B.Cu, length 5.6500 mm
+    @(120.9550 mm, 112.4460 mm): PTH pad 57 [P57] of U1
+[shorting_items]: Items shorting two nets (nets P60 and P58)
+    Local override; error
+    @(117.7600 mm, 110.1600 mm): Track [P60] on B.Cu, length 5.1000 mm
+    @(120.9550 mm, 110.6680 mm): PTH pad 58 [P58] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(117.7600 mm, 110.1600 mm): Via [P60] on F.Cu - B.Cu
+    @(120.9550 mm, 110.6680 mm): Track [P58] on F.Cu, length 4.2950 mm
+[shorting_items]: Items shorting two nets (nets P61 and P60)
+    Local override; error
+    @(118.3100 mm, 107.6200 mm): Track [P61] on B.Cu, length 4.5500 mm
+    @(120.9550 mm, 107.1120 mm): PTH pad 60 [P60] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1830 mm)
+    Local override; error
+    @(118.3100 mm, 107.6200 mm): Via [P61] on F.Cu - B.Cu
+    @(120.9550 mm, 107.1120 mm): Track [P60] on F.Cu, length 3.1950 mm
+[shorting_items]: Items shorting two nets (nets P62 and P61)
+    Local override; error
+    @(118.8600 mm, 105.0800 mm): Track [P62] on B.Cu, length 4.0000 mm
+    @(120.9550 mm, 105.3340 mm): PTH pad 61 [P61] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(118.8600 mm, 105.0800 mm): Via [P62] on F.Cu - B.Cu
+    @(118.3100 mm, 105.3340 mm): Via [P61] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(118.8600 mm, 105.0800 mm): Via [P62] on F.Cu - B.Cu
+    @(118.3100 mm, 105.3340 mm): Via [P61] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(118.8600 mm, 105.0800 mm): Via [P62] on F.Cu - B.Cu
+    @(118.3100 mm, 105.3340 mm): Via [P61] on F.Cu - B.Cu
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1058 mm)
+    Local override; error
+    @(118.8600 mm, 105.0800 mm): Via [P62] on F.Cu - B.Cu
+    @(118.3100 mm, 105.3340 mm): Via [P61] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2019 mm)
+    Rule: board setup constraints hole; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2019 mm)
+    Rule: board setup constraints hole; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2019 mm)
+    Rule: board setup constraints hole; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2019 mm)
+    Rule: board setup constraints hole; error
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 100.0000 mm): Via [P01] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 100.0000 mm): Via [P01] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 101.7780 mm): Via [P02] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 102.5400 mm): Via [P02] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 103.5560 mm): Via [P03] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 105.0800 mm): Via [P03] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 105.3340 mm): Via [P04] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 107.6200 mm): Via [P04] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 107.1120 mm): Via [P05] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 110.1600 mm): Via [P05] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 108.8900 mm): Via [P06] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 112.7000 mm): Via [P06] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 110.6680 mm): Via [P07] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 115.2400 mm): Via [P07] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 112.4460 mm): Via [P08] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 117.7800 mm): Via [P08] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 114.2240 mm): Via [P09] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 120.3200 mm): Via [P09] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 116.0020 mm): Via [P10] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 122.8600 mm): Via [P10] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 117.7800 mm): Via [P11] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 125.4000 mm): Via [P11] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 119.5580 mm): Via [P12] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 127.9400 mm): Via [P12] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 121.3360 mm): Via [P13] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 130.4800 mm): Via [P13] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 123.1140 mm): Via [P14] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 133.0200 mm): Via [P14] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 124.8920 mm): Via [P15] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 135.5600 mm): Via [P15] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 128.4480 mm): Via [P17] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 140.6400 mm): Via [P17] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 130.2260 mm): Via [P18] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 143.1800 mm): Via [P18] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 132.0040 mm): Via [P19] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 145.7200 mm): Via [P19] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 133.7820 mm): Via [P20] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 148.2600 mm): Via [P20] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 135.5600 mm): Via [P21] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 150.8000 mm): Via [P21] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 137.3380 mm): Via [P22] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 153.3400 mm): Via [P22] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 139.1160 mm): Via [P23] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 155.8800 mm): Via [P23] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 140.8940 mm): Via [P24] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 158.4200 mm): Via [P24] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 142.6720 mm): Via [P25] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 160.9600 mm): Via [P25] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 144.4500 mm): Via [P26] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 163.5000 mm): Via [P26] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 146.2280 mm): Via [P27] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 166.0400 mm): Via [P27] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 148.0060 mm): Via [P28] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 168.5800 mm): Via [P28] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 149.7840 mm): Via [P29] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 171.1200 mm): Via [P29] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 151.5620 mm): Via [P30] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 173.6600 mm): Via [P30] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 153.3400 mm): Via [P31] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 176.2000 mm): Via [P31] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 153.3400 mm): Via [P34] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 176.2000 mm): Via [P34] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 151.5620 mm): Via [P35] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 173.6600 mm): Via [P35] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 149.7840 mm): Via [P36] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 171.1200 mm): Via [P36] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 148.0060 mm): Via [P37] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 168.5800 mm): Via [P37] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 146.2280 mm): Via [P38] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 166.0400 mm): Via [P38] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 144.4500 mm): Via [P39] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 163.5000 mm): Via [P39] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 142.6720 mm): Via [P40] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 160.9600 mm): Via [P40] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 140.8940 mm): Via [P41] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 158.4200 mm): Via [P41] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 139.1160 mm): Via [P42] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 155.8800 mm): Via [P42] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 137.3380 mm): Via [P43] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 153.3400 mm): Via [P43] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 135.5600 mm): Via [P44] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 150.8000 mm): Via [P44] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 133.7820 mm): Via [P45] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 148.2600 mm): Via [P45] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 132.0040 mm): Via [P46] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 145.7200 mm): Via [P46] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 130.2260 mm): Via [P47] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 143.1800 mm): Via [P47] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 128.4480 mm): Via [P48] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 140.6400 mm): Via [P48] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 124.8920 mm): Via [P50] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 135.5600 mm): Via [P50] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 123.1140 mm): Via [P51] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 133.0200 mm): Via [P51] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 121.3360 mm): Via [P52] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 130.4800 mm): Via [P52] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 119.5580 mm): Via [P53] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 127.9400 mm): Via [P53] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 117.7800 mm): Via [P54] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 125.4000 mm): Via [P54] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 116.0020 mm): Via [P55] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 122.8600 mm): Via [P55] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 114.2240 mm): Via [P56] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 120.3200 mm): Via [P56] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 112.4460 mm): Via [P57] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 117.7800 mm): Via [P57] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 110.6680 mm): Via [P58] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 115.2400 mm): Via [P58] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 108.8900 mm): Via [P59] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 112.7000 mm): Via [P59] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 107.1120 mm): Via [P60] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 110.1600 mm): Via [P60] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 105.3340 mm): Via [P61] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 107.6200 mm): Via [P61] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 103.5560 mm): Via [P62] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 105.0800 mm): Via [P62] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 101.7780 mm): Via [P63] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 102.5400 mm): Via [P63] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 100.0000 mm): Via [P64] on F.Cu - B.Cu
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 100.0000 mm): Via [P64] on F.Cu - B.Cu
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 100.0000 mm): Track [P01] on F.Cu, length 1.2050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 100.0000 mm): Track [P01] on In1.Cu, length 0.0000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 100.0000 mm): Track [P01] on B.Cu, length 3.1100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 101.7780 mm): Track [P02] on F.Cu, length 1.7550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 101.7780 mm): Track [P02] on In1.Cu, length 0.7620 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 102.5400 mm): Track [P02] on B.Cu, length 3.6600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 103.5560 mm): Track [P03] on F.Cu, length 2.3050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 103.5560 mm): Track [P03] on In1.Cu, length 1.5240 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 105.0800 mm): Track [P03] on B.Cu, length 4.2100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 105.3340 mm): Track [P04] on F.Cu, length 2.8550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 105.3340 mm): Track [P04] on In1.Cu, length 2.2860 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 107.6200 mm): Track [P04] on B.Cu, length 4.7600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 107.1120 mm): Track [P05] on F.Cu, length 3.4050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 107.1120 mm): Track [P05] on In1.Cu, length 3.0480 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 110.1600 mm): Track [P05] on B.Cu, length 5.3100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 108.8900 mm): Track [P06] on F.Cu, length 3.9550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 108.8900 mm): Track [P06] on In1.Cu, length 3.8100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 112.7000 mm): Track [P06] on B.Cu, length 5.8600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 110.6680 mm): Track [P07] on F.Cu, length 4.5050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 110.6680 mm): Track [P07] on In1.Cu, length 4.5720 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 115.2400 mm): Track [P07] on B.Cu, length 6.4100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 112.4460 mm): Track [P08] on F.Cu, length 5.0550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 112.4460 mm): Track [P08] on In1.Cu, length 5.3340 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 117.7800 mm): Track [P08] on B.Cu, length 6.9600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 114.2240 mm): Track [P09] on F.Cu, length 5.6050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 114.2240 mm): Track [P09] on In1.Cu, length 6.0960 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 120.3200 mm): Track [P09] on B.Cu, length 7.5100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 116.0020 mm): Track [P10] on F.Cu, length 6.1550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 116.0020 mm): Track [P10] on In1.Cu, length 6.8580 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 122.8600 mm): Track [P10] on B.Cu, length 8.0600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 117.7800 mm): Track [P11] on F.Cu, length 6.7050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 117.7800 mm): Track [P11] on In1.Cu, length 7.6200 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 125.4000 mm): Track [P11] on B.Cu, length 8.6100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 119.5580 mm): Track [P12] on F.Cu, length 7.2550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 119.5580 mm): Track [P12] on In1.Cu, length 8.3820 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 127.9400 mm): Track [P12] on B.Cu, length 9.1600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 121.3360 mm): Track [P13] on F.Cu, length 7.8050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 121.3360 mm): Track [P13] on In1.Cu, length 9.1440 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 130.4800 mm): Track [P13] on B.Cu, length 9.7100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 123.1140 mm): Track [P14] on F.Cu, length 8.3550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 123.1140 mm): Track [P14] on In1.Cu, length 9.9060 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 133.0200 mm): Track [P14] on B.Cu, length 10.2600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 124.8920 mm): Track [P15] on F.Cu, length 8.9050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 124.8920 mm): Track [P15] on In1.Cu, length 10.6680 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 135.5600 mm): Track [P15] on B.Cu, length 10.8100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 126.6700 mm): Track [P16] on F.Cu, length 9.4550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 126.6700 mm): Track [P16] on In1.Cu, length 11.4300 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 138.1000 mm): Track [P16] on B.Cu, length 11.3600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 128.4480 mm): Track [P17] on F.Cu, length 1.2050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 128.4480 mm): Track [P17] on In2.Cu, length 12.1920 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.1100 mm, 140.6400 mm): Track [P17] on B.Cu, length 3.1100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 130.2260 mm): Track [P18] on F.Cu, length 1.7550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 130.2260 mm): Track [P18] on In2.Cu, length 12.9540 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(103.6600 mm, 143.1800 mm): Track [P18] on B.Cu, length 3.6600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 132.0040 mm): Track [P19] on F.Cu, length 2.3050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 132.0040 mm): Track [P19] on In2.Cu, length 13.7160 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.2100 mm, 145.7200 mm): Track [P19] on B.Cu, length 4.2100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 133.7820 mm): Track [P20] on F.Cu, length 2.8550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 133.7820 mm): Track [P20] on In2.Cu, length 14.4780 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(104.7600 mm, 148.2600 mm): Track [P20] on B.Cu, length 4.7600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 135.5600 mm): Track [P21] on F.Cu, length 3.4050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 135.5600 mm): Track [P21] on In2.Cu, length 15.2400 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.3100 mm, 150.8000 mm): Track [P21] on B.Cu, length 5.3100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 137.3380 mm): Track [P22] on F.Cu, length 3.9550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 137.3380 mm): Track [P22] on In2.Cu, length 16.0020 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(105.8600 mm, 153.3400 mm): Track [P22] on B.Cu, length 5.8600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 139.1160 mm): Track [P23] on F.Cu, length 4.5050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 139.1160 mm): Track [P23] on In2.Cu, length 16.7640 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.4100 mm, 155.8800 mm): Track [P23] on B.Cu, length 6.4100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 140.8940 mm): Track [P24] on F.Cu, length 5.0550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 140.8940 mm): Track [P24] on In2.Cu, length 17.5260 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(106.9600 mm, 158.4200 mm): Track [P24] on B.Cu, length 6.9600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 142.6720 mm): Track [P25] on F.Cu, length 5.6050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 142.6720 mm): Track [P25] on In2.Cu, length 18.2880 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(107.5100 mm, 160.9600 mm): Track [P25] on B.Cu, length 7.5100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 144.4500 mm): Track [P26] on F.Cu, length 6.1550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 144.4500 mm): Track [P26] on In2.Cu, length 19.0500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.0600 mm, 163.5000 mm): Track [P26] on B.Cu, length 8.0600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 146.2280 mm): Track [P27] on F.Cu, length 6.7050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 146.2280 mm): Track [P27] on In2.Cu, length 19.8120 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(108.6100 mm, 166.0400 mm): Track [P27] on B.Cu, length 8.6100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 148.0060 mm): Track [P28] on F.Cu, length 7.2550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 148.0060 mm): Track [P28] on In2.Cu, length 20.5740 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.1600 mm, 168.5800 mm): Track [P28] on B.Cu, length 9.1600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 149.7840 mm): Track [P29] on F.Cu, length 7.8050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 149.7840 mm): Track [P29] on In2.Cu, length 21.3360 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(109.7100 mm, 171.1200 mm): Track [P29] on B.Cu, length 9.7100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 151.5620 mm): Track [P30] on F.Cu, length 8.3550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 151.5620 mm): Track [P30] on In2.Cu, length 22.0980 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.2600 mm, 173.6600 mm): Track [P30] on B.Cu, length 10.2600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 153.3400 mm): Track [P31] on F.Cu, length 8.9050 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 153.3400 mm): Track [P31] on In2.Cu, length 22.8600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(110.8100 mm, 176.2000 mm): Track [P31] on B.Cu, length 10.8100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.9050 mm, 155.1180 mm): Track [P32] on F.Cu, length 9.4550 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 155.1180 mm): Track [P32] on In2.Cu, length 23.6220 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.3600 mm, 178.7400 mm): Track [P32] on B.Cu, length 11.3600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 155.1180 mm): Track [P33] on F.Cu, length 9.2450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 155.1180 mm): Track [P33] on In1.Cu, length 23.6220 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 178.7400 mm): Track [P33] on B.Cu, length 11.1500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 153.3400 mm): Track [P34] on F.Cu, length 8.6950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 153.3400 mm): Track [P34] on In1.Cu, length 22.8600 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 176.2000 mm): Track [P34] on B.Cu, length 10.6000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 151.5620 mm): Track [P35] on F.Cu, length 8.1450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 151.5620 mm): Track [P35] on In1.Cu, length 22.0980 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 173.6600 mm): Track [P35] on B.Cu, length 10.0500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 149.7840 mm): Track [P36] on F.Cu, length 7.5950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 149.7840 mm): Track [P36] on In1.Cu, length 21.3360 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 171.1200 mm): Track [P36] on B.Cu, length 9.5000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 148.0060 mm): Track [P37] on F.Cu, length 7.0450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 148.0060 mm): Track [P37] on In1.Cu, length 20.5740 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 168.5800 mm): Track [P37] on B.Cu, length 8.9500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 146.2280 mm): Track [P38] on F.Cu, length 6.4950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 146.2280 mm): Track [P38] on In1.Cu, length 19.8120 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 166.0400 mm): Track [P38] on B.Cu, length 8.4000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 144.4500 mm): Track [P39] on F.Cu, length 5.9450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 144.4500 mm): Track [P39] on In1.Cu, length 19.0500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 163.5000 mm): Track [P39] on B.Cu, length 7.8500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 142.6720 mm): Track [P40] on F.Cu, length 5.3950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 142.6720 mm): Track [P40] on In1.Cu, length 18.2880 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 160.9600 mm): Track [P40] on B.Cu, length 7.3000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 140.8940 mm): Track [P41] on F.Cu, length 4.8450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 140.8940 mm): Track [P41] on In1.Cu, length 17.5260 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 158.4200 mm): Track [P41] on B.Cu, length 6.7500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 139.1160 mm): Track [P42] on F.Cu, length 4.2950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 139.1160 mm): Track [P42] on In1.Cu, length 16.7640 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 155.8800 mm): Track [P42] on B.Cu, length 6.2000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 137.3380 mm): Track [P43] on F.Cu, length 3.7450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 137.3380 mm): Track [P43] on In1.Cu, length 16.0020 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 153.3400 mm): Track [P43] on B.Cu, length 5.6500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 135.5600 mm): Track [P44] on F.Cu, length 3.1950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 135.5600 mm): Track [P44] on In1.Cu, length 15.2400 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 150.8000 mm): Track [P44] on B.Cu, length 5.1000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 133.7820 mm): Track [P45] on F.Cu, length 2.6450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 133.7820 mm): Track [P45] on In1.Cu, length 14.4780 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 148.2600 mm): Track [P45] on B.Cu, length 4.5500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 132.0040 mm): Track [P46] on F.Cu, length 2.0950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 132.0040 mm): Track [P46] on In1.Cu, length 13.7160 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 145.7200 mm): Track [P46] on B.Cu, length 4.0000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 130.2260 mm): Track [P47] on F.Cu, length 1.5450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 130.2260 mm): Track [P47] on In1.Cu, length 12.9540 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 143.1800 mm): Track [P47] on B.Cu, length 3.4500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 128.4480 mm): Track [P48] on F.Cu, length 0.9950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 128.4480 mm): Track [P48] on In1.Cu, length 12.1920 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 140.6400 mm): Track [P48] on B.Cu, length 2.9000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 126.6700 mm): Track [P49] on F.Cu, length 9.2450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 126.6700 mm): Track [P49] on In2.Cu, length 11.4300 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(111.7100 mm, 138.1000 mm): Track [P49] on B.Cu, length 11.1500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 124.8920 mm): Track [P50] on F.Cu, length 8.6950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 124.8920 mm): Track [P50] on In2.Cu, length 10.6680 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.2600 mm, 135.5600 mm): Track [P50] on B.Cu, length 10.6000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 123.1140 mm): Track [P51] on F.Cu, length 8.1450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 123.1140 mm): Track [P51] on In2.Cu, length 9.9060 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(112.8100 mm, 133.0200 mm): Track [P51] on B.Cu, length 10.0500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 121.3360 mm): Track [P52] on F.Cu, length 7.5950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 121.3360 mm): Track [P52] on In2.Cu, length 9.1440 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.3600 mm, 130.4800 mm): Track [P52] on B.Cu, length 9.5000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 119.5580 mm): Track [P53] on F.Cu, length 7.0450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 119.5580 mm): Track [P53] on In2.Cu, length 8.3820 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(113.9100 mm, 127.9400 mm): Track [P53] on B.Cu, length 8.9500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 117.7800 mm): Track [P54] on F.Cu, length 6.4950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 117.7800 mm): Track [P54] on In2.Cu, length 7.6200 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(114.4600 mm, 125.4000 mm): Track [P54] on B.Cu, length 8.4000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 116.0020 mm): Track [P55] on F.Cu, length 5.9450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 116.0020 mm): Track [P55] on In2.Cu, length 6.8580 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.0100 mm, 122.8600 mm): Track [P55] on B.Cu, length 7.8500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 114.2240 mm): Track [P56] on F.Cu, length 5.3950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 114.2240 mm): Track [P56] on In2.Cu, length 6.0960 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(115.5600 mm, 120.3200 mm): Track [P56] on B.Cu, length 7.3000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 112.4460 mm): Track [P57] on F.Cu, length 4.8450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 112.4460 mm): Track [P57] on In2.Cu, length 5.3340 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.1100 mm, 117.7800 mm): Track [P57] on B.Cu, length 6.7500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 110.6680 mm): Track [P58] on F.Cu, length 4.2950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 110.6680 mm): Track [P58] on In2.Cu, length 4.5720 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(116.6600 mm, 115.2400 mm): Track [P58] on B.Cu, length 6.2000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 108.8900 mm): Track [P59] on F.Cu, length 3.7450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 108.8900 mm): Track [P59] on In2.Cu, length 3.8100 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.2100 mm, 112.7000 mm): Track [P59] on B.Cu, length 5.6500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 107.1120 mm): Track [P60] on F.Cu, length 3.1950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 107.1120 mm): Track [P60] on In2.Cu, length 3.0480 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(117.7600 mm, 110.1600 mm): Track [P60] on B.Cu, length 5.1000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 105.3340 mm): Track [P61] on F.Cu, length 2.6450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 105.3340 mm): Track [P61] on In2.Cu, length 2.2860 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.3100 mm, 107.6200 mm): Track [P61] on B.Cu, length 4.5500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 103.5560 mm): Track [P62] on F.Cu, length 2.0950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 103.5560 mm): Track [P62] on In2.Cu, length 1.5240 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(118.8600 mm, 105.0800 mm): Track [P62] on B.Cu, length 4.0000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 101.7780 mm): Track [P63] on F.Cu, length 1.5450 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 101.7780 mm): Track [P63] on In2.Cu, length 0.7620 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.4100 mm, 102.5400 mm): Track [P63] on B.Cu, length 3.4500 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(120.9550 mm, 100.0000 mm): Track [P64] on F.Cu, length 0.9950 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 100.0000 mm): Track [P64] on In2.Cu, length 0.0000 mm
+[track_width]: Track width (board setup constraints min width 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(119.9600 mm, 100.0000 mm): Track [P64] on B.Cu, length 2.9000 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.2100 mm, 105.0800 mm): Track [P03] on B.Cu, length 4.2100 mm
+    @(101.9050 mm, 105.3340 mm): PTH pad 4 [P04] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.2100 mm, 145.7200 mm): Track [P19] on B.Cu, length 4.2100 mm
+    @(101.9050 mm, 146.2280 mm): PTH pad 27 [P27] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.3600 mm, 138.1000 mm): Track [P16] on B.Cu, length 11.3600 mm
+    @(101.9050 mm, 137.3380 mm): PTH pad 22 [P22] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(106.4100 mm, 115.2400 mm): Track [P07] on B.Cu, length 6.4100 mm
+    @(101.9050 mm, 116.0020 mm): PTH pad 10 [P10] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.6600 mm, 155.8800 mm): Track [P42] on B.Cu, length 6.2000 mm
+    @(120.9550 mm, 155.1180 mm): PTH pad 33 [P33] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(113.3600 mm, 130.4800 mm): Track [P52] on B.Cu, length 9.5000 mm
+    @(120.9550 mm, 130.2260 mm): PTH pad 47 [P47] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(111.7100 mm, 138.1000 mm): Track [P49] on B.Cu, length 11.1500 mm
+    @(120.9550 mm, 137.3380 mm): PTH pad 43 [P43] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.8600 mm, 145.7200 mm): Track [P46] on B.Cu, length 4.0000 mm
+    @(120.9550 mm, 146.2280 mm): PTH pad 38 [P38] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(106.9600 mm, 117.7800 mm): Track [P08] on B.Cu, length 6.9600 mm
+    @(101.9050 mm, 117.7800 mm): PTH pad 11 [P11] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(108.0600 mm, 122.8600 mm): Track [P10] on B.Cu, length 8.0600 mm
+    @(101.9050 mm, 123.1140 mm): PTH pad 14 [P14] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(117.2100 mm, 153.3400 mm): Track [P43] on B.Cu, length 5.6500 mm
+    @(120.9550 mm, 153.3400 mm): PTH pad 34 [P34] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(112.2600 mm, 135.5600 mm): Track [P50] on B.Cu, length 10.6000 mm
+    @(120.9550 mm, 135.5600 mm): PTH pad 44 [P44] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.3100 mm, 107.6200 mm): Track [P61] on B.Cu, length 4.5500 mm
+    @(120.9550 mm, 107.1120 mm): PTH pad 60 [P60] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(105.8600 mm, 153.3400 mm): Track [P22] on B.Cu, length 5.8600 mm
+    @(101.9050 mm, 153.3400 mm): PTH pad 31 [P31] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(109.7100 mm, 130.4800 mm): Track [P13] on B.Cu, length 9.7100 mm
+    @(101.9050 mm, 130.2260 mm): PTH pad 18 [P18] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(108.6100 mm, 125.4000 mm): Track [P11] on B.Cu, length 8.6100 mm
+    @(101.9050 mm, 124.8920 mm): PTH pad 15 [P15] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(112.8100 mm, 133.0200 mm): Track [P51] on B.Cu, length 10.0500 mm
+    @(120.9550 mm, 133.7820 mm): PTH pad 45 [P45] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.6600 mm, 115.2400 mm): Track [P58] on B.Cu, length 6.2000 mm
+    @(120.9550 mm, 116.0020 mm): PTH pad 55 [P55] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(117.7600 mm, 150.8000 mm): Track [P44] on B.Cu, length 5.1000 mm
+    @(120.9550 mm, 151.5620 mm): PTH pad 35 [P35] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.4100 mm, 143.1800 mm): Track [P47] on B.Cu, length 3.4500 mm
+    @(120.9550 mm, 142.6720 mm): PTH pad 40 [P40] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.7600 mm, 107.6200 mm): Track [P04] on B.Cu, length 4.7600 mm
+    @(101.9050 mm, 107.1120 mm): PTH pad 5 [P05] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(103.1100 mm, 140.6400 mm): Track [P17] on B.Cu, length 3.1100 mm
+    @(101.9050 mm, 140.8940 mm): PTH pad 24 [P24] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(104.7600 mm, 148.2600 mm): Track [P20] on B.Cu, length 4.7600 mm
+    @(101.9050 mm, 148.0060 mm): PTH pad 28 [P28] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(106.4100 mm, 155.8800 mm): Track [P23] on B.Cu, length 6.4100 mm
+    @(101.9050 mm, 155.1180 mm): PTH pad 32 [P32] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.0100 mm, 122.8600 mm): Track [P55] on B.Cu, length 7.8500 mm
+    @(120.9550 mm, 123.1140 mm): PTH pad 51 [P51] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.8600 mm, 105.0800 mm): Track [P62] on B.Cu, length 4.0000 mm
+    @(120.9550 mm, 105.3340 mm): PTH pad 61 [P61] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(107.5100 mm, 120.3200 mm): Track [P09] on B.Cu, length 7.5100 mm
+    @(101.9050 mm, 119.5580 mm): PTH pad 12 [P12] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(105.3100 mm, 110.1600 mm): Track [P05] on B.Cu, length 5.3100 mm
+    @(101.9050 mm, 110.6680 mm): PTH pad 7 [P07] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(119.9600 mm, 140.6400 mm): Track [P48] on B.Cu, length 2.9000 mm
+    @(120.9550 mm, 140.8940 mm): PTH pad 41 [P41] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(109.1600 mm, 127.9400 mm): Track [P12] on B.Cu, length 9.1600 mm
+    @(101.9050 mm, 128.4480 mm): PTH pad 17 [P17] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(115.5600 mm, 120.3200 mm): Track [P56] on B.Cu, length 7.3000 mm
+    @(120.9550 mm, 119.5580 mm): PTH pad 53 [P53] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(117.2100 mm, 112.7000 mm): Track [P59] on B.Cu, length 5.6500 mm
+    @(120.9550 mm, 112.4460 mm): PTH pad 57 [P57] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(103.6600 mm, 143.1800 mm): Track [P18] on B.Cu, length 3.6600 mm
+    @(101.9050 mm, 142.6720 mm): PTH pad 25 [P25] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(118.3100 mm, 148.2600 mm): Track [P45] on B.Cu, length 4.5500 mm
+    @(120.9550 mm, 148.0060 mm): PTH pad 37 [P37] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(105.8600 mm, 112.7000 mm): Track [P06] on B.Cu, length 5.8600 mm
+    @(101.9050 mm, 112.4460 mm): PTH pad 8 [P08] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(105.3100 mm, 150.8000 mm): Track [P21] on B.Cu, length 5.3100 mm
+    @(101.9050 mm, 151.5620 mm): PTH pad 30 [P30] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(116.1100 mm, 117.7800 mm): Track [P57] on B.Cu, length 6.7500 mm
+    @(120.9550 mm, 117.7800 mm): PTH pad 54 [P54] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(113.9100 mm, 127.9400 mm): Track [P53] on B.Cu, length 8.9500 mm
+    @(120.9550 mm, 128.4480 mm): PTH pad 48 [P48] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(110.2600 mm, 133.0200 mm): Track [P14] on B.Cu, length 10.2600 mm
+    @(101.9050 mm, 133.7820 mm): PTH pad 20 [P20] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(117.7600 mm, 110.1600 mm): Track [P60] on B.Cu, length 5.1000 mm
+    @(120.9550 mm, 110.6680 mm): PTH pad 58 [P58] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(114.4600 mm, 125.4000 mm): Track [P54] on B.Cu, length 8.4000 mm
+    @(120.9550 mm, 124.8920 mm): PTH pad 50 [P50] of U1
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(110.8100 mm, 135.5600 mm): Track [P15] on B.Cu, length 10.8100 mm
+    @(101.9050 mm, 135.5600 mm): PTH pad 21 [P21] of U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(98.5000 mm, 98.5000 mm): Rectangle on Edge.Cuts
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(103.1100 mm, 100.0000 mm): Via [P01] on F.Cu - B.Cu
+    @(103.1100 mm, 100.0000 mm): Via [P01] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.1000 mm)
+    Rule: board setup constraints; warning
+    @(111.7100 mm, 126.6700 mm): Via [P49] on F.Cu - B.Cu
+    @(111.3600 mm, 126.6700 mm): Via [P16] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.1000 mm)
+    Rule: board setup constraints; warning
+    @(111.3600 mm, 138.1000 mm): Via [P16] on F.Cu - B.Cu
+    @(111.7100 mm, 138.1000 mm): Via [P49] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.1000 mm)
+    Rule: board setup constraints; warning
+    @(111.7100 mm, 155.1180 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 155.1180 mm): Via [P32] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.1000 mm)
+    Rule: board setup constraints; warning
+    @(111.7100 mm, 178.7400 mm): Via [P33] on F.Cu - B.Cu
+    @(111.3600 mm, 178.7400 mm): Via [P32] on F.Cu - B.Cu
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(119.9600 mm, 100.0000 mm): Via [P64] on F.Cu - B.Cu
+    @(119.9600 mm, 100.0000 mm): Via [P64] on F.Cu - B.Cu
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom'
+    Local override; warning
+    @(100.0000 mm, 100.0000 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Custom'
+    Local override; warning
+    @(100.0000 mm, 100.0000 mm): Footprint J1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(100.0000 mm, 107.6200 mm): PTH pad 4 [P04] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(101.9050 mm, 108.8900 mm): PTH pad 6 [P06] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(101.9050 mm, 107.1120 mm): PTH pad 5 [P05] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8000 mm, 102.2000 mm): Footprint text of U1 (PIN 1)
+    @(100.0000 mm, 102.5400 mm): PTH pad 2 [P02] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8000 mm, 102.2000 mm): Footprint text of U1 (PIN 1)
+    @(101.9050 mm, 101.7780 mm): PTH pad 2 [P02] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(120.9550 mm, 107.1120 mm): PTH pad 60 [P60] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(120.9550 mm, 108.8900 mm): PTH pad 59 [P59] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(111.4300 mm, 108.0000 mm): PCB text '4-LAYER ROUTING REQUIRED — DO NOT FABRICATE' on f.Silkscreen
+    @(122.8600 mm, 107.6200 mm): PTH pad 61 [P61] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 153.3400 mm): PTH pad 43 [P43] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 150.8000 mm): PTH pad 44 [P44] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 148.2600 mm): PTH pad 45 [P45] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 143.1800 mm): PTH pad 47 [P47] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 140.6400 mm): PTH pad 48 [P48] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 155.8800 mm): PTH pad 42 [P42] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 145.7200 mm): PTH pad 46 [P46] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 135.5600 mm): PTH pad 50 [P50] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 133.0200 mm): PTH pad 51 [P51] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 130.4800 mm): PTH pad 52 [P52] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 125.4000 mm): PTH pad 54 [P54] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 122.8600 mm): PTH pad 55 [P55] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 138.1000 mm): PTH pad 49 [P49] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 127.9400 mm): PTH pad 53 [P53] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 120.3200 mm): PTH pad 56 [P56] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 112.7000 mm): PTH pad 59 [P59] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 107.6200 mm): PTH pad 61 [P61] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 105.0800 mm): PTH pad 62 [P62] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 100.0000 mm): PTH pad 64 [P64] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 117.7800 mm): PTH pad 57 [P57] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 115.2400 mm): PTH pad 58 [P58] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 110.1600 mm): PTH pad 60 [P60] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 102.5400 mm): PTH pad 63 [P63] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 178.7400 mm): PTH pad 33 [P33] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 176.2000 mm): PTH pad 34 [P34] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 173.6600 mm): PTH pad 35 [P35] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 171.1200 mm): PTH pad 36 [P36] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 168.5800 mm): PTH pad 37 [P37] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 166.0400 mm): PTH pad 38 [P38] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 163.5000 mm): PTH pad 39 [P39] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 160.9600 mm): PTH pad 40 [P40] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(122.8600 mm, 158.4200 mm): PTH pad 41 [P41] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 102.5400 mm): PTH pad 2 [P02] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 115.2400 mm): PTH pad 7 [P07] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 100.0000 mm): PTH pad 1 [P01] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 105.0800 mm): PTH pad 3 [P03] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 107.6200 mm): PTH pad 4 [P04] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 110.1600 mm): PTH pad 5 [P05] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 112.7000 mm): PTH pad 6 [P06] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 120.3200 mm): PTH pad 9 [P09] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 133.0200 mm): PTH pad 14 [P14] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 117.7800 mm): PTH pad 8 [P08] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 122.8600 mm): PTH pad 10 [P10] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 125.4000 mm): PTH pad 11 [P11] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 127.9400 mm): PTH pad 12 [P12] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 130.4800 mm): PTH pad 13 [P13] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 138.1000 mm): PTH pad 16 [P16] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 135.5600 mm): PTH pad 15 [P15] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 140.6400 mm): PTH pad 17 [P17] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 143.1800 mm): PTH pad 18 [P18] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 150.8000 mm): PTH pad 21 [P21] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 153.3400 mm): PTH pad 22 [P22] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 145.7200 mm): PTH pad 19 [P19] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 148.2600 mm): PTH pad 20 [P20] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 155.8800 mm): PTH pad 23 [P23] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 158.4200 mm): PTH pad 24 [P24] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 160.9600 mm): PTH pad 25 [P25] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 163.5000 mm): PTH pad 26 [P26] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 166.0400 mm): PTH pad 27 [P27] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 168.5800 mm): PTH pad 28 [P28] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 171.1200 mm): PTH pad 29 [P29] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 173.6600 mm): PTH pad 30 [P30] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 176.2000 mm): PTH pad 31 [P31] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of U1 on f.Silkscreen
+    @(100.0000 mm, 178.7400 mm): PTH pad 32 [P32] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 153.3400 mm): PTH pad 43 [P43] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 150.8000 mm): PTH pad 44 [P44] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 148.2600 mm): PTH pad 45 [P45] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 143.1800 mm): PTH pad 47 [P47] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 140.6400 mm): PTH pad 48 [P48] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 155.8800 mm): PTH pad 42 [P42] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 145.7200 mm): PTH pad 46 [P46] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 135.5600 mm): PTH pad 50 [P50] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 133.0200 mm): PTH pad 51 [P51] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 130.4800 mm): PTH pad 52 [P52] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 125.4000 mm): PTH pad 54 [P54] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 122.8600 mm): PTH pad 55 [P55] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 138.1000 mm): PTH pad 49 [P49] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 127.9400 mm): PTH pad 53 [P53] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 120.3200 mm): PTH pad 56 [P56] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 112.7000 mm): PTH pad 59 [P59] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 107.6200 mm): PTH pad 61 [P61] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 105.0800 mm): PTH pad 62 [P62] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 100.0000 mm): PTH pad 64 [P64] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 117.7800 mm): PTH pad 57 [P57] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 115.2400 mm): PTH pad 58 [P58] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 110.1600 mm): PTH pad 60 [P60] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 102.5400 mm): PTH pad 63 [P63] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 178.7400 mm): PTH pad 33 [P33] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 176.2000 mm): PTH pad 34 [P34] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 173.6600 mm): PTH pad 35 [P35] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 171.1200 mm): PTH pad 36 [P36] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 168.5800 mm): PTH pad 37 [P37] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 166.0400 mm): PTH pad 38 [P38] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 163.5000 mm): PTH pad 39 [P39] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 160.9600 mm): PTH pad 40 [P40] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(122.8600 mm, 158.4200 mm): PTH pad 41 [P41] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 102.5400 mm): PTH pad 2 [P02] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 115.2400 mm): PTH pad 7 [P07] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 100.0000 mm): PTH pad 1 [P01] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 105.0800 mm): PTH pad 3 [P03] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 107.6200 mm): PTH pad 4 [P04] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 110.1600 mm): PTH pad 5 [P05] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 112.7000 mm): PTH pad 6 [P06] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 120.3200 mm): PTH pad 9 [P09] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 133.0200 mm): PTH pad 14 [P14] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 117.7800 mm): PTH pad 8 [P08] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 122.8600 mm): PTH pad 10 [P10] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 125.4000 mm): PTH pad 11 [P11] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 127.9400 mm): PTH pad 12 [P12] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 130.4800 mm): PTH pad 13 [P13] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 138.1000 mm): PTH pad 16 [P16] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 135.5600 mm): PTH pad 15 [P15] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 140.6400 mm): PTH pad 17 [P17] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 143.1800 mm): PTH pad 18 [P18] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 150.8000 mm): PTH pad 21 [P21] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 153.3400 mm): PTH pad 22 [P22] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 145.7200 mm): PTH pad 19 [P19] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 148.2600 mm): PTH pad 20 [P20] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 155.8800 mm): PTH pad 23 [P23] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 158.4200 mm): PTH pad 24 [P24] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 160.9600 mm): PTH pad 25 [P25] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 163.5000 mm): PTH pad 26 [P26] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 166.0400 mm): PTH pad 27 [P27] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 168.5800 mm): PTH pad 28 [P28] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 171.1200 mm): PTH pad 29 [P29] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 173.6600 mm): PTH pad 30 [P30] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 176.2000 mm): PTH pad 31 [P31] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(99.1000 mm, 98.7000 mm): Rectangle of J1 on b.Silkscreen
+    @(100.0000 mm, 178.7400 mm): PTH pad 32 [P32] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8000 mm, 102.2000 mm): Footprint text of J1 (PIN 1)
+    @(100.0000 mm, 102.5400 mm): PTH pad 2 [P02] of J1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(101.8000 mm, 102.2000 mm): Footprint text of J1 (PIN 1)
+    @(101.9050 mm, 101.7780 mm): PTH pad 2 [P02] of U1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(111.4300 mm, 97.3000 mm): Reference field of J1
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(111.4300 mm, 181.5000 mm): Value field of J1 (TO HOST DIP-64)
+[nonmirrored_text_on_back_layer]: Non-Mirrored text on back layer
+    Local override; warning
+    @(101.8000 mm, 102.2000 mm): Footprint text of J1 (PIN 1)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

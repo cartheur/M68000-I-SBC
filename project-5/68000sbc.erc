@@ -1,0 +1,20 @@
+ERC report (2026-10-28 17:07:02, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(172.72 mm, 152.40 mm): Pin 40 (Power input) of component U8 is not driven (Net 8).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(77.47 mm, 255.91 mm): Pin 6 (Passive) of component J2 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(77.47 mm, 266.06 mm): Pin 2 (Passive) of component J2 is unconnected.
+ErrType(5): Conflict problem between pins. Severity: error
+    @(64.14 mm, 42.55 mm): Pin 5 (Output) of component X2 is connected to 
+    @(42.55 mm, 42.55 mm): pin 8 (Output) of component X1 (net 30).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(48.89 mm, 42.55 mm): Pin 1 (Input) of component X2 is not driven (Net 56).
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(281.94 mm, 64.77 mm): Pin 31 (Passive) of component J4 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(281.94 mm, 52.07 mm): Pin 21 (Passive) of component J4 is unconnected.
+
+ ** ERC messages: 7  Errors 1  Warnings 6

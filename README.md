@@ -280,4 +280,5 @@ project ideas that I won't have time to tackle, but you're welcome to:
 - Booting [uClinux](https://www.bigmessowires.com/2014/11/17/68-katy-68000-linux-on-a-solderless-breadboard/) like Steve Chamberlin did with [68 Katy](https://www.bigmessowires.com/category/68katy/).
 - Using the DS3234 real-time clock's SQW output to generate a periodic interrupt.
   (likely necessary for uClinux)
+- Video short is [here](https://www.youtube.com/watch?v=B4DA7k4Jmoc&t=3s)
 
