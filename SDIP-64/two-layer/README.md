@@ -49,5 +49,7 @@ is not required; clean routing and continuity verification matter more.
 - `SDIP64-P-750-1.78.kicad_mod`: reusable SDIP64 footprint.
 - `final-preproduction-drc.rpt`: matching final DRC report.
 - `SDIP64-to-DIP64-two-layer-drill.rpt`: generated drill summary.
+- `SDIP64-to-DIP64-two-layer-gerbers/`: fabrication Gerbers and drill data.
+- `SDIP64-to-DIP64-two-layer-gerbers.zip`: upload-ready fabrication archive.
 - `generate_adapter.py`: unrouted geometry baseline only; do not run it on the
   production design because it removes routed copper.
