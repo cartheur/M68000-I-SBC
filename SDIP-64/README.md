@@ -64,8 +64,10 @@ The project now includes a generated, direct 1:1 `SDIP64-P-750-1.78` to
 `DIP-64_W22.86mm` adapter board. It is designed for the production board's
 22.86 mm row-spacing DIP-64 socket. Start with [four-layer/ADAPTER-DESIGN.md](four-layer/ADAPTER-DESIGN.md)
 for the dimensions, assembly method, and mandatory 1:1 print/DRC checks.
-The constrained production-board envelope requires a compact four-layer
-routing strategy, documented in [four-layer/FOUR-LAYER-ROUTING.md](four-layer/FOUR-LAYER-ROUTING.md).
+One compact four-layer routing option is documented in
+[four-layer/FOUR-LAYER-ROUTING.md](four-layer/FOUR-LAYER-ROUTING.md). The
+regenerated two-layer baseline must be routed and checked independently before
+choosing between the approaches.
 
 ## Adapter design status
 
@@ -73,13 +75,13 @@ The adapter work is organized by routing approach:
 
 | Directory | Status | Contents |
 |---|---|---|
-| [`two-layer/`](two-layer/) | Rejected | DRC evidence for the compact two-layer fan-out attempt. It has 591 violations, including shorts, and must not be fabricated. |
+| [`two-layer/`](two-layer/) | Routing baseline | Inspectable, regenerated two-layer KiCad board with verified geometry and 64 unrouted 1:1 nets. The older unpaired DRC report was removed. |
 | [`four-layer/`](four-layer/) | Active routing template | Mechanically accurate SDIP64 footprint, compact adapter PCB, generator, four-layer routing plan, and published DRC reports. |
 
 The four-layer PCB is intentionally marked **ROUTING REQUIRED — DO NOT
 FABRICATE**. Its current DRC report records the expected 64 unconnected nets.
-The associated two-layer and four-layer auto-route reports are retained for
-review; both attempts were rejected because their copper created shorts around
-the overlapping plated-through footprints. A production release requires an
-interactive route with zero DRC errors and zero unconnected nets, followed by
-a 1:1 mechanical overlay and continuity testing.
+The older two-layer auto-route report was removed because its matching PCB was
+not retained. The regenerated two-layer baseline is available for an
+independent routing trial. A production release requires a route with zero DRC
+errors and zero unconnected nets, followed by a 1:1 mechanical overlay and
+continuity testing.

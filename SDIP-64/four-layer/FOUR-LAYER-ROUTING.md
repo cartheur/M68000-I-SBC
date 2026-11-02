@@ -1,11 +1,12 @@
 # Compact four-layer routing plan
 
-## Why four layers
+## Four-layer option
 
-The production SBC has no usable lateral clearance around its DIP-64 CPU
-socket. The adapter must therefore remain inside the original DIP-64 envelope,
-with the SDIP-64 footprint centered over it. A two-layer, direct pitch-change
-route crosses adjacent plated-through pads and is not manufacture-safe.
+The production SBC has limited lateral clearance around its DIP-64 CPU socket.
+This document records a compact four-layer option with the SDIP-64 footprint
+centered over the DIP-64 envelope. It is not evidence that a two-layer route
+cannot work: assess that separately from a routed copy of the regenerated
+two-layer baseline and its matching DRC output.
 
 Use a four-layer board with the following stackup:
 
@@ -74,10 +75,10 @@ The current KiCad DRC output is retained as
 nets until routing is complete; it is published so review can distinguish
 known template findings from new routing errors.
 
-The rejected compact two-layer auto-route is documented in
-[`../two-layer/adapter-drc.rpt`](../two-layer/adapter-drc.rpt). It has 591 DRC
-violations, including shorts, and is evidence for rejecting that route rather
-than a candidate fabrication result.
+The historic compact two-layer auto-route report was removed because its
+matching PCB was not retained. It was not evidence for rejecting a two-layer
+route. The reproducible two-layer starting board is
+[`../two-layer/SDIP64-to-DIP64-two-layer.kicad_pcb`](../two-layer/SDIP64-to-DIP64-two-layer.kicad_pcb).
 
 The corresponding automated compact four-layer attempt is retained as
 [`four-layer-attempt-drc.rpt`](four-layer-attempt-drc.rpt). It has 620 DRC

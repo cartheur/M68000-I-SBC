@@ -144,10 +144,10 @@ can have lead deformation.
 
 `SDIP64-to-DIP64-adapter.kicad_pcb` is a **mechanically accurate, unrouted
 template**, not a fabrication release. Its 64 named nets deliberately expose
-the required 1:1 connections. A naïve two-layer diagonal fan-out shorts
-against adjacent through-hole pads, so it must not be used. Route it
-interactively in KiCad after choosing fabrication rules. The production SBC's
-nearby components rule out a wide two-layer sidecar, so the selected approach
-is a compact four-layer adapter. See [FOUR-LAYER-ROUTING.md](FOUR-LAYER-ROUTING.md)
-for its stackup, design rules, routing topology, and release criteria. The
-board itself is marked `ROUTING REQUIRED — DO NOT FABRICATE`.
+the required 1:1 connections. A two-layer baseline is now available at
+[`../two-layer/`](../two-layer/); any claim about two-layer feasibility must be
+based on a routed copy of that board and its matching DRC output. The compact
+four-layer template remains a separate routing option. See
+[FOUR-LAYER-ROUTING.md](FOUR-LAYER-ROUTING.md) for its stackup, design rules,
+routing topology, and release criteria. The board itself is marked `ROUTING
+REQUIRED — DO NOT FABRICATE`.
