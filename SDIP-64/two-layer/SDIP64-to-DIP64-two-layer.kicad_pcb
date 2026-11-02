@@ -2060,7 +2060,6 @@
 		(uuid "bbf6258d-56ff-4fa6-8d41-1a5adc742cdd")
 		(effects
 			(font
-				(face "DejaVu Serif Condensed")
 				(size 1.2 1.2)
 				(thickness 0.18)
 			)
